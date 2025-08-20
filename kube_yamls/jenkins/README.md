@@ -132,4 +132,4 @@ a chave SSH através do comando:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-e armazenamento na pasta ../../keys
+e armazenamento na pasta [keys](../../keys)
