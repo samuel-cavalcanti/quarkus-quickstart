@@ -20,8 +20,8 @@ spec:
     storage: 5Gi
   accessModes:
     - ReadWriteOnce
-  local:
-    path: /mnt
+  hostPath:
+    path: /data/jenkins/
   nodeAffinity:
     required:
       nodeSelectorTerms:
