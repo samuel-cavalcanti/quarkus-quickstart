@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+    - name: maven
+      # maven:3.9.11-eclipse-temurin-21 é uma imagem baseada no eclipse-temurin
+      image: maven:3.9.11-eclipse-temurin-21
+      resources:
+        requests:
+          memory: "512Mi"
+        limits:
+          memory: "1Gi"
+      securityContext:
+        # maven runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission "restricted") to run as a non-root user.
+        runAsUser: 1000
