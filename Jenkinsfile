@@ -13,6 +13,7 @@ podTemplate(
                 )
                 
             sh 'HOME=$WORKSPACE_TMP/maven mvn -B -ntp verify'
+            sh 'HOME=$WORKSPACE_TMP/maven mvn -B -ntp package'
         }
     }
 }
