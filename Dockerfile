@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17
 
-COPY ./target/* ./
+COPY target  ./
 
 
-CMD [ "java" , "-jar" , "quarkus-run.jar"]
+CMD [ "java" , "-jar" , "quarkus-app/quarkus-run.jar"]
