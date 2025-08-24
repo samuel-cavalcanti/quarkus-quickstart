@@ -111,7 +111,7 @@ kubectl cluster-info
 ```
 
 Onde o endereço do *control plane* é o endereço é o `KUBERNETES_URL`. Já o `JENKINS_URL`
-é http://jenkins.minikube/ e **habilitamos a conexão via Websocket**.
+é o IP do `jenkins-service`  e **habilitamos a conexão via Websocket**.
 
 Após a configuração foi criado uma pipeline chamada: Test Pipeline que cria um pod que executa testes e validações de uma aplicação maven.
 

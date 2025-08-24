@@ -3,13 +3,24 @@ kind: Pod
 spec:
   containers:
     - name: maven
-      # maven:3.9.11-eclipse-temurin-21 é uma imagem baseada no eclipse-temurin
       image: maven:3.9.11-eclipse-temurin-21
-      resources:
-        requests:
-          memory: "512Mi"
-        limits:
-          memory: "1Gi"
+      command:
+        - sleep
+      args:
+        - infinity
       securityContext:
-        # maven runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission "restricted") to run as a non-root user.
-        runAsUser: 1000
+# maven runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission "restricted") to run as a non-root user.
+        runAsUser: 0
+    - name: docker
+      image: docker:28.3-dind
+      command:
+        - dockerd
+      args:
+        - --host=tcp://0.0.0.0:2375
+        - --iptables=false # Disable iptables
+      env:
+        - name: DOCKER_HOST
+          value: tcp://0.0.0.0:2375
+      securityContext:
+        # ubuntu runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission "restricted") to run as a non-root user.
+        privileged: true
