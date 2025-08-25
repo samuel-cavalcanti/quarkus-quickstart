@@ -3,8 +3,6 @@
 Todos os yamls foram inspirados na documentação oficial do Jenkins: https://www.jenkins.io/doc/book/installing/kubernetes/
 
 
-## Criando o Deploy do Jenkins
-
 ### Passo 1 um *namespace*  para o jenkins:
 
 Para criar  um *namespace*  para o jenkins, basta executar o comando

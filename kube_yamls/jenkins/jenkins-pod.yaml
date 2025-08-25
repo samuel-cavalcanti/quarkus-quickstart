@@ -9,7 +9,7 @@ spec:
       args:
         - infinity
       securityContext:
-# maven runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission "restricted") to run as a non-root user.
+        # maven runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission "restricted") to run as a non-root user.
         runAsUser: 0
     - name: docker
       image: docker:28.3-dind
@@ -24,3 +24,8 @@ spec:
       securityContext:
         # ubuntu runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission "restricted") to run as a non-root user.
         privileged: true
+
+    - name: kubectl
+      image: bitnami/kubectl:latest
+      command: ["cat"]
+      tty: true

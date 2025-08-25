@@ -1,0 +1,29 @@
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: quickstart-ingress
+  namespace: quickstart
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: quickstart.dev.minikube
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: quickistart-des-service
+            port:
+              number: 8080
+  - host: quickstart.minikube
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: quickistart-prd-service
+            port:
+              number: 8080

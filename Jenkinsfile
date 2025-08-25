@@ -52,5 +52,15 @@ pipeline {
                 }
             }
         }
+
+        stage('Delete Pod'){
+            steps{
+                    container('kubectl'){
+                        sh 'kubectl delete pod -n quickstart -l app=des-server'
+                    }
+
+                }
+
+        }
     }
 }

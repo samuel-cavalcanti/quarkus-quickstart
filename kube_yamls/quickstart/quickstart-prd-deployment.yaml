@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: quickstart-des
+  name: quickstart-prd
   namespace: quickstart
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: des-server
+      app: prd-server
   strategy:
     type: Recreate
   template:
     metadata:
       labels:
-        app: des-server
+        app: prd-server
     spec:
       securityContext:
         # Note: fsGroup may be customized for a bit of better
