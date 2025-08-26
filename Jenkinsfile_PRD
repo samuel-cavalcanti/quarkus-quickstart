@@ -14,7 +14,7 @@ pipeline {
         stage('Delete Pod'){
             steps {
                 container('kubectl'){
-                        sh 'kubectl set image -n quickstart deployments/quickstart-prd quickstart=samuelcavalcanti/quickstart:${env.TAG}'
+                        sh "kubectl set image -n quickstart deployments/quickstart-prd quickstart=samuelcavalcanti/quickstart:${env.TAG}"
 
                 }
 
