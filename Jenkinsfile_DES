@@ -7,7 +7,7 @@ pipeline {
     }
      environment {
         IMAGE_NAME = 'quickstart'
-        TAG = "${env.BUILD_ID}"
+        TAG = 1.1
     }
     
     stages {
@@ -56,7 +56,8 @@ pipeline {
         stage('Delete Pod'){
             steps{
                     container('kubectl'){
-                        sh 'kubectl delete pod -n quickstart -l app=des-server'
+                        sh 'kubectl set image -n quickstart deployments/quickstart-des quickstart=samuelcavalcanti/quickstart:${env.TAG}'
+
                     }
 
                 }
