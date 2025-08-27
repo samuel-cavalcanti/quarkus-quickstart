@@ -1,0 +1,214 @@
+Started by user [8mha:////4FkPqxGAQNrLzfv2rpdNojzhdZaynpURXwxPiEFkORtbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+[8mha:////4NtYXHZ4zB97FZpM4ipyey4PkbPNVTeVXTqAdVAfg//LAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4DjGJ5fvHRD4st2j2c62xN+UEQzrxDVaAY/9p5Kr6g1qAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4Be4aYbEeKrfxYg5Gvc6QgEGDpPnX83HyuT5shbVodN1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4N9gwG704R6P9oxjhVLbHnkbK0IeWAKiNDeu325udXCwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] retry
+[8mha:////4OjZsh+TGK3I68xU+JXYmMxF6+VILSxwGSQWyzO2W9W7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4IM/TSim4Se3m/RbRiCPtY6QwUob+c2giJelwmVuo0KHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] node
+Created Pod: minikube devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8 Container jnlp was terminated.
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+
+- jnlp -- terminated (255)
+-----Logs-------------
+Aug 24, 2025 1:54:29 AM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: test-pipeline-10-lgj9g-vpml0-0jdb8
+Aug 24, 2025 1:54:29 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3309.v27b_9314fd1a_4
+Aug 24, 2025 1:54:29 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/jenkins/agent/remoting as a remoting work directory
+Aug 24, 2025 1:54:29 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among []
+Aug 24, 2025 1:54:29 AM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: jenkins.minikube
+  Agent port:    50000
+  Identity:      b5:2f:49:e1:0c:9a:2e:8d:7b:2d:06:a3:16:34:67:e0
+Aug 24, 2025 1:54:29 AM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+Aug 24, 2025 1:54:29 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to jenkins.minikube:50000
+Aug 24, 2025 1:54:29 AM hudson.remoting.Launcher$CuiListener error
+SEVERE: null
+java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.base/java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:231)
+	at hudson.remoting.Engine.connectTcp(Engine.java:1135)
+	at hudson.remoting.Engine.innerRun(Engine.java:1003)
+	at hudson.remoting.Engine.run(Engine.java:587)
+
+
+
+- shell -- running
+-----Logs-------------
+
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-0jdb8
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[8mha:////4N3/sXse+2kL1uibdFLyvnC1cjCYpMhj7V2xD+dn0lLWAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QfVs29dvAAAAA==[0m[Pipeline] // node
+[8mha:////4EXxLUkbdQ66OvwCrQszjovJOkraA+9XJ/sNkg2Yiwi9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+Could not find a node block associated with node (source of error) but inside podTemplate
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 9e4a5d2d-00ef-4c35-928d-7f88a3f95180
+Retrying
+[8mha:////4C7n1RYJnlUJpVcspnRVkx2/nPbB5mXdFvq5SIzapCVZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDBRWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INdjukkMEAAAA=[0m[Pipeline] {
+[8mha:////4IZmeVSSA7ForVJ6gJrEwxnLwyMJE61WMaOhEz9Ad+5YAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] node
+ERROR: Failed to launch test-pipeline-10-lgj9g-vpml0-0jdb8
+java.lang.IllegalStateException: Node was deleted, computer is null
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:249)
+	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:297)
+	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Created Pod: minikube devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+devops-tools/test-pipeline-10-lgj9g-vpml0-86stz Container jnlp was terminated.
+
+- jnlp -- terminated (255)
+-----Logs-------------
+Aug 24, 2025 1:54:40 AM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: test-pipeline-10-lgj9g-vpml0-86stz
+Aug 24, 2025 1:54:40 AM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3309.v27b_9314fd1a_4
+Aug 24, 2025 1:54:40 AM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/jenkins/agent/remoting as a remoting work directory
+Aug 24, 2025 1:54:41 AM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among []
+Aug 24, 2025 1:54:41 AM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: jenkins.minikube
+  Agent port:    50000
+  Identity:      b5:2f:49:e1:0c:9a:2e:8d:7b:2d:06:a3:16:34:67:e0
+Aug 24, 2025 1:54:41 AM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+Aug 24, 2025 1:54:41 AM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to jenkins.minikube:50000
+Aug 24, 2025 1:54:41 AM hudson.remoting.Launcher$CuiListener error
+SEVERE: null
+java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.Net.checkAddress(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(Unknown Source)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(Unknown Source)
+	at java.base/java.nio.channels.SocketChannel.open(Unknown Source)
+	at org.jenkinsci.remoting.engine.JnlpAgentEndpoint.open(JnlpAgentEndpoint.java:231)
+	at hudson.remoting.Engine.connectTcp(Engine.java:1135)
+	at hudson.remoting.Engine.innerRun(Engine.java:1003)
+	at hudson.remoting.Engine.run(Engine.java:587)
+
+
+
+- shell -- running
+-----Logs-------------
+
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[PodInfo] devops-tools/test-pipeline-10-lgj9g-vpml0-86stz
+	Container [jnlp] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [jnlp]
+[8mha:////4Bc3Cyr/NEH33gv0tICSnX48t8ZPT0o0gx8Bcp0XPcIoAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7H2Cut1/qn0DJDYlLL4AAAA=[0m[Pipeline] // node
+[8mha:////4MLprCbyNqHRXM1Ee1sR8m3iOv/JS0mcqdsoJz2cvPYSAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICokRUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23fF9V+kL4AAAA=[0m[Pipeline] }
+[8mha:////4NOSiBoG2jJXhgIA1Om3FwjpyfK3bfin6Rqqwv2WTYB4AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP073CUL0AAAA=[0m[Pipeline] // retry
+[8mha:////4JEniN1piVLMl58D8LoGP0WIHVagWPGRAyfZAkjDFTWhAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRElSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsP9aSlGr0AAAA=[0m[Pipeline] }
+[8mha:////4JbMaG7MuNkggMoRzNLRnKo81ERAr5CcAzggenSWjWGuAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIZLYcO9AAAA[0m[Pipeline] // podTemplate
+[8mha:////4O1jzQhw44aiICJMhto3+qr1Rx/TMw7P4giK9m21/YR6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRNBSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPoFIGib0AAAA=[0m[Pipeline] End of Pipeline
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 412abb5a-33af-4ec4-a097-3eb6393614e4
+Finished: ABORTED

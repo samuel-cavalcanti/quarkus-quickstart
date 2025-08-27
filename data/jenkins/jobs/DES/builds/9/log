@@ -1,0 +1,154 @@
+Started by user [8mha:////4FkPqxGAQNrLzfv2rpdNojzhdZaynpURXwxPiEFkORtbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Obtained Jenkinsfile from git git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+[8mha:////4NtYXHZ4zB97FZpM4ipyey4PkbPNVTeVXTqAdVAfg//LAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IhaxRM6a+fSEH4/phuLs4fkl6a4bbh5x+FxAkfdSmFvAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbaGmsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfya1RxvAAAAA==[0m[Pipeline] readTrusted
+Obtained kube_yamls/jenkins/jenkins-pod.yaml from git git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+[8mha:////4I2/fVl1KYLlFZLnNB8PWwiu3Nn1cbpIzdYs7KQNa7LPAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SFSEHfiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/WVBy+wAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4N9gwG704R6P9oxjhVLbHnkbK0IeWAKiNDeu325udXCwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] {
+[8mha:////4OjZsh+TGK3I68xU+JXYmMxF6+VILSxwGSQWyzO2W9W7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] retry
+[8mha:////4IM/TSim4Se3m/RbRiCPtY6QwUob+c2giJelwmVuo0KHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4DwU6vdiSWwBmiVUca5aCfqOhWq0RdJ0S63h7b+J3PUjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] node
+Created Pod: minikube devops-tools/des-9-c986c-k9x4j-mgwzg
+[PodInfo] devops-tools/des-9-c986c-k9x4j-mgwzg
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [kubectl] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker kubectl jnlp]
+Still waiting to schedule task
+‘[8mha:////4LN08l4vbw6KY+Xs08n8WG0P4TiEd8t2dSZcd1fEt6ztAAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYt/eT83ILSktQi/ZTUYlUjF0sgTra0MEsG0tmWFSZZQDo3vbwqXR8AVkd/+N8AAAA=[0mdes-9-c986c-k9x4j-mgwzg’ is offline
+[PodInfo] devops-tools/des-9-c986c-k9x4j-mgwzg
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [kubectl] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker kubectl jnlp]
+devops-tools/des-9-c986c-k9x4j-mgwzg Container kubectl was terminated.
+[PodInfo] devops-tools/des-9-c986c-k9x4j-mgwzg
+	Container [kubectl] terminated [Completed] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [kubectl]
+
+- docker -- running
+-----Logs-------------
+time="2025-08-25T20:20:21.689526465Z" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+time="2025-08-25T20:20:21.689585476Z" level=info msg="loading plugin \"io.containerd.transfer.v1.local\"..." type=io.containerd.transfer.v1
+time="2025-08-25T20:20:21.689639166Z" level=info msg="loading plugin \"io.containerd.grpc.v1.transfer\"..." type=io.containerd.grpc.v1
+time="2025-08-25T20:20:21.689695101Z" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+time="2025-08-25T20:20:21.689755845Z" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+time="2025-08-25T20:20:21.691468239Z" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+time="2025-08-25T20:20:21.691743604Z" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="skip plugin: tracing endpoint not configured" type=io.containerd.tracing.processor.v1
+time="2025-08-25T20:20:21.691844884Z" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+time="2025-08-25T20:20:21.691892483Z" level=info msg="skip loading plugin \"io.containerd.internal.v1.tracing\"..." error="skip plugin: tracing endpoint not configured" type=io.containerd.internal.v1
+time="2025-08-25T20:20:21.691909605Z" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+time="2025-08-25T20:20:21.692004503Z" level=info msg="loading plugin \"io.containerd.nri.v1.nri\"..." type=io.containerd.nri.v1
+time="2025-08-25T20:20:21.692027035Z" level=info msg="NRI interface is disabled by configuration."
+time="2025-08-25T20:20:21.693179762Z" level=info msg=serving... address=/var/run/docker/containerd/containerd-debug.sock
+time="2025-08-25T20:20:21.693555435Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock.ttrpc
+time="2025-08-25T20:20:21.694807518Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock
+time="2025-08-25T20:20:21.695586296Z" level=info msg="containerd successfully booted in 0.106680s"
+time="2025-08-25T20:20:21.719203603Z" level=info msg="OTEL tracing is not configured, using no-op tracer provider"
+time="2025-08-25T20:20:21.721685238Z" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/etc/cdi
+time="2025-08-25T20:20:21.721769185Z" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/var/run/cdi
+time="2025-08-25T20:20:21.820721626Z" level=info msg="Creating a containerd client" address=/var/run/docker/containerd/containerd.sock timeout=1m0s
+time="2025-08-25T20:20:21.907410557Z" level=info msg="Loading containers: start."
+time="2025-08-25T20:20:22.043881881Z" level=warning msg="ip6tables is enabled, but cannot set up ip6tables chains" error="failed to create NAT chain DOCKER: iptables failed: ip6tables --wait -t nat -N DOCKER: ip6tables v1.8.11 (nf_tables): Could not fetch rule set generation id: Invalid argument\n (exit status 4)"
+time="2025-08-25T20:20:22.055959904Z" level=warning msg="configuring DOCKER-USER" error="failed to create DOCKER-USER ipv6 chain: iptables failed: ip6tables --wait -t filter -N DOCKER-USER: ip6tables v1.8.11 (nf_tables): Could not fetch rule set generation id: Invalid argument\n (exit status 4)"
+time="2025-08-25T20:20:22.082752104Z" level=info msg="Loading containers: done."
+time="2025-08-25T20:20:22.109070456Z" level=warning msg="[DEPRECATION NOTICE]: API is accessible on http://0.0.0.0:2375 without encryption.\n         Access to the remote API is equivalent to root access on the host. Refer\n         to the 'Docker daemon attack surface' section in the documentation for\n         more information: https://docs.docker.com/go/attack-surface/\nIn future versions this will be a hard failure preventing the daemon from starting! Learn more at: https://docs.docker.com/go/api-security/"
+time="2025-08-25T20:20:22.109200309Z" level=info msg="Docker daemon" commit=bea959c7 containerd-snapshotter=false storage-driver=overlay2 version=28.3.3
+time="2025-08-25T20:20:22.109588626Z" level=info msg="Initializing buildkit"
+time="2025-08-25T20:20:22.164644148Z" level=info msg="Completed buildkit initialization"
+time="2025-08-25T20:20:22.172669246Z" level=info msg="Daemon has completed initialization"
+time="2025-08-25T20:20:22.172969157Z" level=info msg="API listen on [::]:2375"
+
+
+- jnlp -- running
+-----Logs-------------
+
+
+- kubectl -- terminated (0)
+-----Logs-------------
+kubectl is ready!
+
+
+- maven -- running
+-----Logs-------------
+
+[PodInfo] devops-tools/des-9-c986c-k9x4j-mgwzg
+	Container [kubectl] terminated [Completed] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [kubectl]
+[8mha:////4Ibj37RaqoKm3KHrcXJSXQGMzAYPD5/e+HvDrYbrPRqUAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAOcYC7FC7/wD0h7DwvAAAAA==[0m[Pipeline] // node
+[8mha:////4P41lzjLXaFBTgq+nYGZvIUY66XGbuXsxf+ruBNRQ7OaAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJoZeFY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8AP3pMS70AAAA=[0m[Pipeline] }
+Could not find a node block associated with node (source of error) but inside podTemplate
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: a8100451-326b-4382-84a5-4af295996c99
+Retrying
+[8mha:////4OE/DksdvN4T9RCcB6R1nrqjYJQC5VMxBPmN0v/ybNuSAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BKWgpeYSjNDSIitZywwtMbIwT6y7YF5KKF/E1/oAhEhVb7ay0mucLqhThQNGJzmLvMbVeDGF0uYmJYn8JNImOzqIlTBSsUHZSZOxxQUVsYUlRwkrC2mIbKHl0DBvZ6buug0ZXnzjmbS+h9OYGDyhkNrOO/IU5wvY6mkT48/wVwDwwFDuGsmk+x+oN0o4awsEAAAA=[0m[Pipeline] {
+[8mha:////4PLMpiYzKr4sxx6iBEmJuiq7DuPWJTew0XiLnImm1BtEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] node
+Created Pod: minikube devops-tools/des-9-c986c-k9x4j-w5mdr
+[PodInfo] devops-tools/des-9-c986c-k9x4j-w5mdr
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [kubectl] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker kubectl jnlp]
+[PodInfo] devops-tools/des-9-c986c-k9x4j-w5mdr
+	Container [kubectl] terminated [Completed] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [kubectl]
+devops-tools/des-9-c986c-k9x4j-w5mdr Container kubectl was terminated.
+
+- docker -- running
+-----Logs-------------
+time="2025-08-25T20:21:16.415783130Z" level=info msg="Starting up"
+time="2025-08-25T20:21:16.423004224Z" level=warning msg="Binding to IP address without --tlsverify is insecure and gives root access on this machine to everyone who has access to your network." host="tcp://0.0.0.0:2375"
+time="2025-08-25T20:21:16.423069275Z" level=warning msg="Binding to an IP address, even on localhost, can also give access to scripts run in a browser. Be safe out there!" host="tcp://0.0.0.0:2375"
+time="2025-08-25T20:21:16.423081007Z" level=warning msg="[DEPRECATION NOTICE] In future versions this will be a hard failure preventing the daemon from starting! Learn more at: https://docs.docker.com/go/api-security/" host="tcp://0.0.0.0:2375"
+time="2025-08-25T20:21:17.594866394Z" level=warning msg="Binding to an IP address without --tlsverify is deprecated. Startup is intentionally being slowed down to show this message" host="tcp://0.0.0.0:2375"
+time="2025-08-25T20:21:18.911354850Z" level=warning msg="Please consider generating tls certificates with client validation to prevent exposing unauthenticated root access to your network" host="tcp://0.0.0.0:2375"
+time="2025-08-25T20:21:20.020708982Z" level=warning msg="You can override this by explicitly specifying '--tls=false' or '--tlsverify=false'" host="tcp://0.0.0.0:2375"
+time="2025-08-25T20:21:20.476194454Z" level=warning msg="Support for listening on TCP without authentication or explicit intent to run without authentication will be removed in the next release" host="tcp://0.0.0.0:2375"
+
+
+- jnlp -- running
+-----Logs-------------
+Aug 25, 2025 8:21:22 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/jenkins/agent/remoting as a remoting work directory
+Aug 25, 2025 8:21:22 PM org.jenkinsci.remoting.engine.WorkDirManager setupLogging
+INFO: Both error and output logs will be printed to /home/jenkins/agent/remoting
+Aug 25, 2025 8:21:22 PM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: des-9-c986c-k9x4j-w5mdr
+Aug 25, 2025 8:21:22 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3309.v27b_9314fd1a_4
+Aug 25, 2025 8:21:22 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/jenkins/agent/remoting as a remoting work directory
+Aug 25, 2025 8:21:23 PM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://10.97.245.121:8080/]
+Aug 25, 2025 8:21:23 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Aug 25, 2025 8:21:23 PM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 10.97.245.121
+  Agent port:    50000
+  Identity:      b5:2f:49:e1:0c:9a:2e:8d:7b:2d:06:a3:16:34:67:e0
+
+
+- kubectl -- terminated (0)
+-----Logs-------------
+kubectl is ready!
+
+
+- maven -- running
+-----Logs-------------
+
+[PodInfo] devops-tools/des-9-c986c-k9x4j-w5mdr
+	Container [kubectl] terminated [Completed] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [kubectl]
+[8mha:////4A7MYclRcjjjLgZ1PsSOUm1+9yTfRrRKPzkenuQ6nv6WAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKLf7T+3eO7Rwfr4AAAA=[0m[Pipeline] // node
+[8mha:////4PaoU+ggoEa7fqshBlZZOMXFzHw1EC3BBWcc6h7KrdNBAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaJm7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+ATnVfPq+AAAA[0m[Pipeline] }
+[8mha:////4Jci4NAfZVkwbYt+Z0Bf2NssiD8YBcGpb8X1Vqyg8/37AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsP2cWr9L0AAAA=[0m[Pipeline] // retry
+[8mha:////4MlRLzPdeXPYqENeli5/Qn2qATGfr0/5jBxtLe18fEDsAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBTSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPs+4CKr0AAAA=[0m[Pipeline] }
+[8mha:////4KFuYtp8LkUFh50XOImdh6p52QL5g8/rY7J+c46CnNULAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREhIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBdnuA5X3ZWC9AAAA[0m[Pipeline] // podTemplate
+[8mha:////4BdLBTsoyKRo0JnduM23VEpoQGqsbm25ah2MebS2ox5aAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRVEiIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsXZLsPccVWC70AAAA=[0m[Pipeline] End of Pipeline
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 0b45d555-ac1b-4de2-ab8e-a152644118ab
+Finished: ABORTED

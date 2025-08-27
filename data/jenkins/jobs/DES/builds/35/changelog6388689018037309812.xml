@@ -1,0 +1,20 @@
+commit 39a1e0744e164b131709d6eb77c6bf64efca5b72
+tree 448ae61e014300c0a9b1f5e29e1a16688dee6b07
+parent 2f11c81f4aedd48b4c576060679605305e588259
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 10:00:58 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 10:00:58 -0300
+
+    fix auth error
+
+
+:100644 100644 74c8dc9d0af13ab5dd1ec204b1f145e07a7e5165 b8eaa773f332b626ce925408335b8a41dad22763 M	kube_yamls/jenkins/jenkins-pod.yaml
+commit 2f11c81f4aedd48b4c576060679605305e588259
+tree 876953484a9db7b547cf140543ebc47b80deec95
+parent d1ade7866e3caadea2a7d2da3bb3f85f3935066c
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 10:00:09 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 10:00:09 -0300
+
+    fix: no redirect error
+
+
+:100644 100644 b340e2aa1acd975256b2ab0f55a7d6ce48b0b251 6e9534c01e56fe64466d2dca6f24d79aa03fa46f M	kube_yamls/jenkins/ingress.yaml

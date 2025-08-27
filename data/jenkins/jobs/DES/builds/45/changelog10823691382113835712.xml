@@ -1,0 +1,20 @@
+commit ec60516ee4607085a4da0af2c1cdaeb52d67125e
+tree d204a9fa0fb26268c34d0e05e19c33ce45919b62
+parent f53f14d55484ae6048963460cd1e85cec40f0935
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:33:15 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:33:15 -0300
+
+    fix: cannot patch resource error
+
+
+:100644 100644 11d9853a6b2942102076146927c062a191b15509 59734e18498c33c3f828b77128c309f4c06e5d58 M	kube_yamls/jenkins/deployment-role.yaml
+commit f53f14d55484ae6048963460cd1e85cec40f0935
+tree ddd4a259bcefe8610d6f8ea21eeca2f15386e1bc
+parent b7b5fb8d825bea3200253ad936b5114433cee22a
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:28:17 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:28:17 -0300
+
+    fix: bad substitution
+
+
+:100644 100644 81632341d17190e547f58f97d1cf12f9285e53c1 f2ef20bfb773b459839ab9514ca83671bdaedd65 M	Jenkinsfile_PRD

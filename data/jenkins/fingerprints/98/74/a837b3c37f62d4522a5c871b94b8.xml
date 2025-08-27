@@ -1,0 +1,28 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2025-08-24 16:42:39.241 UTC</timestamp>
+  <md5sum>9874a837b3c37f62d4522a5c871b94b8</md5sum>
+  <fileName>Credential id=DEPLOY_KEY name=samuel-cavalcanti (chave ssh para acessar repositório privado no github)</fileName>
+  <usages>
+    <entry>
+      <string>DES</string>
+      <ranges>1-5,8,10-11,35-37,44-45</ranges>
+    </entry>
+    <entry>
+      <string>PRD</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1419.v2337d1ceceef">
+      <timestamp>1756247616675</timestamp>
+      <itemFullName>DES</itemFullName>
+      <timestamp0>1756247612786</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1419.v2337d1ceceef">
+      <timestamp>1756248394894</timestamp>
+      <itemFullName>PRD</itemFullName>
+      <timestamp0>1756248391248</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

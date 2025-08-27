@@ -1,0 +1,280 @@
+Started by user [8mha:////4FkPqxGAQNrLzfv2rpdNojzhdZaynpURXwxPiEFkORtbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+[8mha:////4NtYXHZ4zB97FZpM4ipyey4PkbPNVTeVXTqAdVAfg//LAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4DjGJ5fvHRD4st2j2c62xN+UEQzrxDVaAY/9p5Kr6g1qAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4Be4aYbEeKrfxYg5Gvc6QgEGDpPnX83HyuT5shbVodN1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4N9gwG704R6P9oxjhVLbHnkbK0IeWAKiNDeu325udXCwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] retry
+[8mha:////4OjZsh+TGK3I68xU+JXYmMxF6+VILSxwGSQWyzO2W9W7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4IM/TSim4Se3m/RbRiCPtY6QwUob+c2giJelwmVuo0KHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] node
+Created Pod: minikube devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+Still waiting to schedule task
+‘[8mha:////4JqXRDvU2re09Xd5RW/ifQ1OYXGvU7lPIgQGt7nlKJhWAAAAvR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAylEgZz/eT83ILSktQi/ZLU4hJVI5eCzIJUoO2pQKahJZAwSK8oMgDSJkUVFQVAOtk0qbhCHwBuA1Uk7AAAAA==[0mtest-pipeline-19-0gxr0-4rxxp-c5bsx’ is offline
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx Containers jnlp,shell were terminated.
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx
+	Container [jnlp] terminated [Error] No message
+	Container [shell] terminated [Error] No message
+	Pod [Failed][PodFailed] No message
+
+- jnlp -- terminated (143)
+-----Logs-------------
+
+Aug 24, 2025 2:43:37 PM hudson.remoting.Launcher$CuiListener status
+INFO: Waiting 10 seconds before retry
+Aug 24, 2025 2:43:47 PM hudson.remoting.Launcher$CuiListener status
+INFO: http://jenkins.minikube/login is not ready
+java.net.UnknownHostException: jenkins.minikube
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at hudson.remoting.Engine.pingSuccessful(Engine.java:852)
+	at hudson.remoting.Engine.lambda$runWebSocket$2(Engine.java:787)
+	at hudson.remoting.Engine.succeedsWithRetries(Engine.java:829)
+	at hudson.remoting.Engine.runWebSocket(Engine.java:787)
+	at hudson.remoting.Engine.run(Engine.java:542)
+
+Aug 24, 2025 2:43:47 PM hudson.remoting.Launcher$CuiListener status
+INFO: Waiting 10 seconds before retry
+
+
+- shell -- terminated (137)
+-----Logs-------------
+
+devops-tools/test-pipeline-19-0gxr0-4rxxp-c5bsx Pod just failed.
+[8mha:////4N3/sXse+2kL1uibdFLyvnC1cjCYpMhj7V2xD+dn0lLWAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzDEWYIfa/QfVs29dvAAAAA==[0m[Pipeline] // node
+[8mha:////4EXxLUkbdQ66OvwCrQszjovJOkraA+9XJ/sNkg2Yiwi9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbmRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j/zqggXvAAAAA==[0m[Pipeline] }
+Could not find a node block associated with node (source of error) but inside podTemplate
+Queue task was cancelled
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: e4a66962-d800-487b-99e0-72fe4854cb26
+Retrying
+
+- jnlp -- terminated (143)
+-----Logs-------------
+
+Aug 24, 2025 2:43:37 PM hudson.remoting.Launcher$CuiListener status
+INFO: Waiting 10 seconds before retry
+Aug 24, 2025 2:43:47 PM hudson.remoting.Launcher$CuiListener status
+INFO: http://jenkins.minikube/login is not ready
+java.net.UnknownHostException: jenkins.minikube
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.base/java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at hudson.remoting.Engine.pingSuccessful(Engine.java:852)
+	at hudson.remoting.Engine.lambda$runWebSocket$2(Engine.java:787)
+	at hudson.remoting.Engine.succeedsWithRetries(Engine.java:829)
+	at hudson.remoting.Engine.runWebSocket(Engine.java:787)
+	at hudson.remoting.Engine.run(Engine.java:542)
+
+Aug 24, 2025 2:43:47 PM hudson.remoting.Launcher$CuiListener status
+INFO: Waiting 10 seconds before retry
+
+
+- shell -- terminated (137)
+-----Logs-------------
+
+[8mha:////4C7n1RYJnlUJpVcspnRVkx2/nPbB5mXdFvq5SIzapCVZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDBRWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INdjukkMEAAAA=[0m[Pipeline] {
+[8mha:////4IZmeVSSA7ForVJ6gJrEwxnLwyMJE61WMaOhEz9Ad+5YAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] node
+ERROR: Failed to launch test-pipeline-19-0gxr0-4rxxp-c5bsx
+java.lang.IllegalStateException: Node was deleted, computer is null
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.KubernetesLauncher.launch(KubernetesLauncher.java:249)
+	at hudson.slaves.SlaveComputer.lambda$_connect$0(SlaveComputer.java:297)
+	at jenkins.util.ContextResettingExecutorService$2.call(ContextResettingExecutorService.java:46)
+	at jenkins.security.ImpersonatingExecutorService$2.call(ImpersonatingExecutorService.java:80)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Created Pod: minikube devops-tools/test-pipeline-19-0gxr0-4rxxp-knr27
+[PodInfo] devops-tools/test-pipeline-19-0gxr0-4rxxp-knr27
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [shell] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [shell jnlp]
+Agent [8mha:////4Gu8kdumOSZwZB/PN3WHHJwK+wuWQRgSf7yztHFErL05AAAAtx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAylEgYd/eT83ILSktQi/ZLU4hLdgsyCVKDdqbqGlroG6RVFBromRRUVBbrZeUVG5gBcTSmX4QAAAA==[0mtest-pipeline-19-0gxr0-4rxxp-knr27 is provisioned from template test_pipeline_19-0gxr0-4rxxp
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    kubernetes.jenkins.io/last-refresh: "1756046666610"
+    buildUrl: "http://jenkins.minikube/job/test_pipeline/19/"
+    runUrl: "job/test_pipeline/19/"
+  labels:
+    jenkins: "slave"
+    jenkins/label-digest: "c5ffdfa2187c0619d9f790666d064e967125b39e"
+    jenkins/label: "test_pipeline_19-0gxr0"
+    kubernetes.jenkins.io/controller: "http___10_109_41_166_8080x"
+  name: "test-pipeline-19-0gxr0-4rxxp-knr27"
+  namespace: "devops-tools"
+spec:
+  containers:
+  - args:
+    - "infinity"
+    command:
+    - "sleep"
+    image: "ubuntu"
+    name: "shell"
+    securityContext:
+      runAsUser: 1000
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_AGENT_NAME"
+      value: "test-pipeline-19-0gxr0-4rxxp-knr27"
+    - name: "JENKINS_WEB_SOCKET"
+      value: "true"
+    - name: "REMOTING_OPTS"
+      value: "-noReconnectAfter 1d"
+    - name: "JENKINS_NAME"
+      value: "test-pipeline-19-0gxr0-4rxxp-knr27"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://10.109.41.166:8080/"
+    image: "jenkins/inbound-agent:3309.v27b_9314fd1a_4-1"
+    name: "jnlp"
+    resources:
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4HTmBUKbEKicVM00U+rkExZ88SoEZPW3GOLvGfBIPFRKAAAAvR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAylEgZz/eT83ILSktQi/ZLU4hJVI5eCzIJUoO2pQKahJZAwSK8oMgDSJkUVFQVAOjuvyMhcHwB7nGXR7AAAAA==[0mtest-pipeline-19-0gxr0-4rxxp-knr27 in /home/jenkins/agent/workspace/test_pipeline
+[8mha:////4PLMpiYzKr4sxx6iBEmJuiq7DuPWJTew0XiLnImm1BtEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] {
+[8mha:////4Owsxwd6lpyEB9omYksRhDF+0vuIhWYTjFlslEtzuYsBAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] container
+[8mha:////4O+uId7vSjzkxw8PeAj9UMktYHnBPXgo3XWRKzyMZfD8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4OGUJ2RwcFuBFHWmucneFwnzN7arEVaNZAqwLXYodmbQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] stage
+[8mha:////4EPZ7Jep6AErDx7NLsfFpez4ITaSc8KWgZJvSXg4/XhMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] { (Main)
+[8mha:////4Meesa4sM73BgrsV7Ky7TfIRMPYmuvvQZ2N9BAGqTe4eAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGigQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN27Iu42+AAAA[0m[Pipeline] sh
++ hostname
+test-pipeline-19-0gxr0-4rxxp-knr27
+[8mha:////4DB/1Bekt4WaVim7enSbutSbTRSltiytyBq8aHXJFRQNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGoSEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHhgNoTvgAAAA==[0m[Pipeline] }
+[8mha:////4I9uhJwxcn+J8sN3JC6Pvse2jyWIef9Uv0qIezANrQXGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQH+Ao9BvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LAh4iGE7hGKFr9TBcy3TJzyR7ckn+XQZJ716s9PO1+wAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICiA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrnf5todPj15byC+AAAA[0m[Pipeline] }
+[8mha:////4Akf2c18RD/i4Gmn2IbVyrIx4EdoyE1qKw0H68OFflejAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoNzXuerDBzs/V3W+AAAA[0m[Pipeline] // container
+[8mha:////4O/QNFv+EX0n5IHKinfAZCOGkwosKPkTI6PB0HICX2asAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRaREVreWGF5jkME6sO2M7OBUv4mv8AYtIVGyx2tlmXm9YxwBHDkYMSKOl2Fnh3WTKEpnDeHWcxcAX0TFFdigUZsU9nhZUnBCWVDWsJGyQOsfRkkmwlYN+6MZpMs05hfIdJNS2v8MTKlnMSYf0hTnA7jb1kenn+SuA2fsEdduW2rcfA33EhL4AAAA=[0m[Pipeline] }
+Agent test-pipeline-19-0gxr0-4rxxp-knr27 was deleted, but do not have a node body to cancel
+[8mha:////4EcMqMNItQXZ+FeojCMsRwQBzLmeSXDkdH/sSuwoip2DAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiQImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoNwfctX1Bxz/kda+AAAA[0m[Pipeline] // node
+[8mha:////4MfIfLzNXenRONfoqb35LFy/pDODct630o/kkA0/HnkWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICiA6lorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYhQrk/5NptPzL/k7y+AAAA[0m[Pipeline] }
+[8mha:////4K522+vMWebBDyOU60IJBGBJ9hm2+b6O5+ww724kciBRAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJkzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUHzeY2670AAAA=[0m[Pipeline] // retry
+[8mha:////4OSjwOtyx8KgO06qaiLWZgfMkE+eqpYHG5gbeqqlDjfoAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIuskdu9AAAA[0m[Pipeline] }
+[8mha:////4CmRHHBuv78qRvf6iSYVIZ69jRjrGcqazbTVX1fMvKsuAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJgQlXi9AAAA[0m[Pipeline] // podTemplate
+[8mha:////4I41/jGRdFSrzzfflLyRLe6qg0heNr4xqDOLp8GtcOmlAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH37fCjb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

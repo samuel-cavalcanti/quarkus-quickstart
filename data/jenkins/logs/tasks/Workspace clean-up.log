@@ -1,0 +1,6 @@
+Started at Mon Aug 25 19:28:12 UTC 2025
+Checking DES
+Deleting /var/jenkins_home/workspace/DES on Jenkins
+Checking test_pipeline
+Deleting /var/jenkins_home/workspace/test_pipeline on Jenkins
+Finished at Mon Aug 25 19:28:13 UTC 2025. 852ms

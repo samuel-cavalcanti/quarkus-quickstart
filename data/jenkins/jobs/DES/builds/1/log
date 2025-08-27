@@ -1,0 +1,615 @@
+Started by user [8mha:////4FkPqxGAQNrLzfv2rpdNojzhdZaynpURXwxPiEFkORtbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+[8mha:////4NtYXHZ4zB97FZpM4ipyey4PkbPNVTeVXTqAdVAfg//LAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4DjGJ5fvHRD4st2j2c62xN+UEQzrxDVaAY/9p5Kr6g1qAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4Be4aYbEeKrfxYg5Gvc6QgEGDpPnX83HyuT5shbVodN1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4N9gwG704R6P9oxjhVLbHnkbK0IeWAKiNDeu325udXCwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] retry
+[8mha:////4OjZsh+TGK3I68xU+JXYmMxF6+VILSxwGSQWyzO2W9W7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4IM/TSim4Se3m/RbRiCPtY6QwUob+c2giJelwmVuo0KHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] node
+[PodInfo] devops-tools/des-1-b9969-4lbm3-qdtct
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker jnlp]
+[PodInfo] devops-tools/des-1-b9969-4lbm3-qdtct
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker jnlp]
+Created Pod: minikube devops-tools/des-1-b9969-4lbm3-qdtct
+Agent [8mha:////4BfF6IkW3aorey2DBtmWZ7o7urygMjd46BWCYs9edcbuAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/eT83ILSktQi/ZTUYl1D3SRLSzNLXZOcpFxj3cKUkuQSAG9qfqbWAAAA[0mdes-1-b9969-4lbm3-qdtct is provisioned from template DES_1-b9969-4lbm3
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    kubernetes.jenkins.io/last-refresh: "1756053743437"
+    buildUrl: "http://10.97.245.121:8080/job/DES/1/"
+    runUrl: "job/DES/1/"
+  labels:
+    jenkins: "slave"
+    jenkins/label-digest: "51531389df6b76f78958f9e0cd3d244d342fb8a0"
+    jenkins/label: "DES_1-b9969"
+    kubernetes.jenkins.io/controller: "http___10_97_245_121_8080x"
+  name: "des-1-b9969-4lbm3-qdtct"
+  namespace: "devops-tools"
+spec:
+  containers:
+  - args:
+    - "infinity"
+    command:
+    - "sleep"
+    image: "maven:3.9.11-eclipse-temurin-21"
+    name: "maven"
+    securityContext:
+      runAsUser: 0
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - args:
+    - "--host=tcp://0.0.0.0:2375"
+    command:
+    - "dockerd"
+    env:
+    - name: "DOCKER_HOST"
+      value: "tcp://0.0.0.0:2375"
+    image: "docker:28.3-dind"
+    name: "docker"
+    securityContext:
+      privileged: true
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "REMOTING_OPTS"
+      value: "-noReconnectAfter 1d"
+    - name: "JENKINS_AGENT_NAME"
+      value: "des-1-b9969-4lbm3-qdtct"
+    - name: "JENKINS_NAME"
+      value: "des-1-b9969-4lbm3-qdtct"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://10.97.245.121:8080/"
+    image: "jenkins/inbound-agent:3309.v27b_9314fd1a_4-1"
+    name: "jnlp"
+    resources:
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4MSHwnPMGVXUI2j1L9At/GveJAbEEE6U9FK8Z346VfekAAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYt/eT83ILSktQi/ZTUYlUjF0MgTrK0NLME0iY5SbnGQLowpSS5RB8An6JMz98AAAA=[0mdes-1-b9969-4lbm3-qdtct in /home/jenkins/agent/workspace/DES
+[8mha:////4DwU6vdiSWwBmiVUca5aCfqOhWq0RdJ0S63h7b+J3PUjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] {
+[8mha:////4BpTv7hoADR7gr5fREDAZzcDYFhNs3+fDQZ1cKHgYZ+OAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] withEnv
+[8mha:////4FhRhuysA+gBoVJRgh/EVKateLCjDRILeCoedoSTHnkPAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] {
+[8mha:////4IZmeVSSA7ForVJ6gJrEwxnLwyMJE61WMaOhEz9Ad+5YAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] stage
+[8mha:////4PLMpiYzKr4sxx6iBEmJuiq7DuPWJTew0XiLnImm1BtEAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] { (Checkout)
+[8mha:////4Owsxwd6lpyEB9omYksRhDF+0vuIhWYTjFlslEtzuYsBAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] container
+[8mha:////4O+uId7vSjzkxw8PeAj9UMktYHnBPXgo3XWRKzyMZfD8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] {
+[8mha:////4NFTo33oOmgwB6potLeC103O+OJxerGiDos45ieMBopmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN8W7Eii+AAAA[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential DEPLOY_KEY
+Warning: JENKINS-30600: special launcher org.csanchez.jenkins.plugins.kubernetes.pipeline.ContainerExecDecorator$1@3cd46bdc; decorates RemoteLauncher[hudson.remoting.Channel@2901418f:JNLP4-connect connection from 10.244.0.238/10.244.0.238:42860] will be ignored (a typical symptom is the Git executable not being run inside a designated container)
+Cloning the remote Git repository
+Cloning repository git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+ > git init /home/jenkins/agent/workspace/DES # timeout=10
+Fetching upstream changes from git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_SSH to set credentials chave ssh para acessar repositório privado no github
+[INFO] SELinux is present on the host and we could not confirm that it does not apply actively: will try to relabel temporary files now; this may complain if context labeling not applicable after all
+ > /usr/bin/chcon --type=ssh_home_t /home/jenkins/agent/workspace/DES@tmp/jenkins-gitclient-ssh15122779103311572030.key
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- git@github.com:samuel-cavalcanti/quarkus-quickstart.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:samuel-cavalcanti/quarkus-quickstart.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 6449a20b7be5da43f215ce749cb412170d06a1ae (refs/remotes/origin/main)
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6449a20b7be5da43f215ce749cb412170d06a1ae # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b main 6449a20b7be5da43f215ce749cb412170d06a1ae # timeout=10
+[PodInfo] devops-tools/des-1-b9969-4lbm3-qdtct
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+devops-tools/des-1-b9969-4lbm3-qdtct Container docker was terminated.
+[PodInfo] devops-tools/des-1-b9969-4lbm3-qdtct
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+
+- docker -- terminated (1)
+-----Logs-------------
+time="2025-08-24T16:42:45.304076874Z" level=info msg="loading plugin \"io.containerd.grpc.v1.sandbox-controllers\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.304382939Z" level=info msg="loading plugin \"io.containerd.grpc.v1.sandboxes\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.306418256Z" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.306785927Z" level=info msg="loading plugin \"io.containerd.grpc.v1.streaming\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.317100668Z" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.317793721Z" level=info msg="loading plugin \"io.containerd.transfer.v1.local\"..." type=io.containerd.transfer.v1
+time="2025-08-24T16:42:45.318413035Z" level=info msg="loading plugin \"io.containerd.grpc.v1.transfer\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.321407926Z" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.322003014Z" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+time="2025-08-24T16:42:45.325993917Z" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+time="2025-08-24T16:42:45.326987515Z" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="skip plugin: tracing endpoint not configured" type=io.containerd.tracing.processor.v1
+time="2025-08-24T16:42:45.327089256Z" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+time="2025-08-24T16:42:45.327122629Z" level=info msg="skip loading plugin \"io.containerd.internal.v1.tracing\"..." error="skip plugin: tracing endpoint not configured" type=io.containerd.internal.v1
+time="2025-08-24T16:42:45.327190757Z" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:42:45.330349586Z" level=info msg="loading plugin \"io.containerd.nri.v1.nri\"..." type=io.containerd.nri.v1
+time="2025-08-24T16:42:45.330383028Z" level=info msg="NRI interface is disabled by configuration."
+time="2025-08-24T16:42:45.336834467Z" level=info msg=serving... address=/var/run/docker/containerd/containerd-debug.sock
+time="2025-08-24T16:42:45.337057276Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock.ttrpc
+time="2025-08-24T16:42:45.341683463Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock
+time="2025-08-24T16:42:45.341762592Z" level=info msg="containerd successfully booted in 0.243768s"
+time="2025-08-24T16:42:45.400350014Z" level=info msg="OTEL tracing is not configured, using no-op tracer provider"
+time="2025-08-24T16:42:45.406108931Z" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/var/run/cdi
+time="2025-08-24T16:42:45.406307754Z" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/etc/cdi
+time="2025-08-24T16:42:45.560496013Z" level=info msg="Creating a containerd client" address=/var/run/docker/containerd/containerd.sock timeout=1m0s
+time="2025-08-24T16:42:45.678285273Z" level=info msg="Loading containers: start."
+time="2025-08-24T16:42:46.035396750Z" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=moby
+time="2025-08-24T16:42:46.036298926Z" level=info msg="stopping healthcheck following graceful shutdown" module=libcontainerd
+time="2025-08-24T16:42:46.041679431Z" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=plugins.moby
+failed to start daemon: Error initializing network controller: error obtaining controller instance: failed to register "bridge" driver: failed to create NAT chain DOCKER: iptables failed: iptables --wait -t nat -N DOCKER: iptables v1.8.11 (nf_tables): Could not fetch rule set generation id: Invalid argument
+ (exit status 4)
+
+
+- jnlp -- running
+-----Logs-------------
+INFO: Both error and output logs will be printed to /home/jenkins/agent/remoting
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: des-1-b9969-4lbm3-qdtct
+Aug 24, 2025 4:42:27 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3309.v27b_9314fd1a_4
+Aug 24, 2025 4:42:27 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/jenkins/agent/remoting as a remoting work directory
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://10.97.245.121:8080/]
+Aug 24, 2025 4:42:27 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 10.97.245.121
+  Agent port:    50000
+  Identity:      b5:2f:49:e1:0c:9a:2e:8d:7b:2d:06:a3:16:34:67:e0
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to 10.97.245.121:50000
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Aug 24, 2025 4:42:27 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: b5:2f:49:e1:0c:9a:2e:8d:7b:2d:06:a3:16:34:67:e0
+Aug 24, 2025 4:42:27 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
+
+
+- maven -- running
+-----Logs-------------
+
+[PodInfo] devops-tools/des-1-b9969-4lbm3-qdtct
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+[PodInfo] devops-tools/des-1-b9969-4lbm3-qdtct
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+ERROR: Checkout failed
+java.nio.channels.ClosedChannelException
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from 10.244.0.238/10.244.0.238:42860
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1916)
+		at hudson.remoting.Request.call(Request.java:204)
+		at hudson.remoting.Channel.call(Channel.java:1107)
+		at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:306)
+		at PluginClassLoader for git-client/jdk.proxy78/jdk.proxy78.$Proxy180.withRepository(Unknown Source)
+		at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl.withRepository(RemoteGitImpl.java:264)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM.printCommitMessageToLog(GitSCM.java:1429)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1369)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1278)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)
+		at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:49)
+Caused: hudson.remoting.RequestAbortedException
+	at hudson.remoting.Request.abort(Request.java:358)
+	at hudson.remoting.Channel.terminate(Channel.java:1189)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:241)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:826)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:289)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:176)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:278)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:505)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:243)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:195)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:208)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:794)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:348)
+	at hudson.remoting.Channel.close(Channel.java:1619)
+	at hudson.remoting.Channel.close(Channel.java:1567)
+	at hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:949)
+	at hudson.slaves.SlaveComputer$2.run(SlaveComputer.java:823)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+ERROR: Maximum checkout retry attempts reached, aborting
+Agent des-1-b9969-4lbm3-qdtct was deleted; cancelling node body
+[8mha:////4DoiXjUKyGW0zxnd/Zej422RxKtNlNMaDox+CO6eIck1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG9gN7HvgAAAA==[0m[Pipeline] }
+[8mha:////4OejWZEmxe9R0eG7n5+BDwItd94ApvITU8f637ZWio0YAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQG7xuaSvgAAAA==[0m[Pipeline] // container
+[8mha:////4GMMBquFwJsNSiRfsE3EWXlXWcIGnjHrW0Sh9xy9h3gpAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiqJAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N/hEtxS+AAAA[0m[Pipeline] }
+[8mha:////4ChtMTvIknAHA602OeNbI43XEFHDNOwkw0DLJrJhuYEjAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyKR3Hypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o358biRr4AAAA=[0m[Pipeline] // stage
+[8mha:////4HQvtc8fjgzUcnSrr66HZCO7WmR5WQczBM3jkIjVojNFAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoi0sCKmrlEXThCaEJJG/5ckJZ04EVfjDgQqMeHBsi1Z7/mCKng4ktfMKhwMht6w0U06J5bIDxdHiVk6s54wkFOsU6kjqdqldhQVLCpKWHFYK+wdBYM6woZbcRe1E6jrU/R5O3AojbzBAwqeyVH4+C2zh+11koHwx/kLgHmMUO6abPvm86zeOWgEJsIAAAA=[0m[Pipeline] stage
+[8mha:////4FKEvGw86iDM6xj+xtkic5B/NSAgNDrvYd/GiuDkO7rpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] { (Test and build)
+Stage "Test and build" skipped due to earlier failure(s)
+[8mha:////4PPYLsVM3bSVNzVEt7N2cDgMkoi3Lcoc+aAjgXznk4SxAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJp+grPefqv0bH7uiub4AAAA=[0m[Pipeline] getContext
+[8mha:////4AiHL0xGSruGgX9M8k+wRu14QtC7hknMeDYVPvj/AePoAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFkKHf7T23f36y8/b4AAAA=[0m[Pipeline] }
+[8mha:////4PpG7SSeXNErpv3Kql3HZRKBW7sD8dyZ5a2gvKK8aU/6AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BvGsvpe+AAAA[0m[Pipeline] // stage
+[8mha:////4K5dcdh0bZuQ2hUI/IhuueYTdkRdTCJ8VVGo/J+W7tj6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUkJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQGK+cl2wgAAAA==[0m[Pipeline] stage
+[8mha:////4GK0R8sTb2MR9/TY97Dv6knIL17JWskBaKTErsNqI60mAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQoIFMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfACW9ZT2wgAAAA==[0m[Pipeline] { (Build docker Image)
+Stage "Build docker Image" skipped due to earlier failure(s)
+[8mha:////4KmVOCSRs8TaNvGSxWjluHSppmshDGGM2YKwUi4VdPV2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUUCBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHUcXIBvgAAAA==[0m[Pipeline] getContext
+[8mha:////4Abs9gNYuNP21hBARVej8dtVIsJQEZFibKw/GamhAEbsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2/yR8JvgAAAA==[0m[Pipeline] }
+[8mha:////4CCe5UI2n652eQYGmoOOMTwdDoZjBADsc+3zqznReGsWAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIVEgRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g2gS0pbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IdjvaDV/XDo7zE9WHXvzObVsqaRJJEKdK7XkGCSRGiYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOISRImo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoDzUufb1B5C2dYG+AAAA[0m[Pipeline] }
+[8mha:////4Pw4l82VO8jcCjM2BQz9qvBpQjmMv6EL5P+8gC0lE0SDAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPg99c3L0AAAA=[0m[Pipeline] // withEnv
+[8mha:////4LmpX0vYit0ZFjhtyhEu+FygYJ3t4t0q3SaEJG646EM9AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoEFCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/AMWV++y9AAAA[0m[Pipeline] }
+[8mha:////4J+KxJHQYJbg/4w7A1Bp+ffDEKmI+P7xmjg9d2/V82vIAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUFBaOlW2GxhNEiDGQ2cVkESpP5NW8g4zMWPmr/17zXm+sU8SRo1Otpc5Tqr3qw+Dmp0aO3TXwqFq+qJopcbCqsmPFjT0tWLFYLMtyrDQ2lurAyZMTbHVrHqYIhlxxlji7g0bumzueyPRcFhPlC1PE7jY0ienX+RvA1PeCvCwF2f4D5KEkQb0AAAA=[0m[Pipeline] // node
+[8mha:////4GclsnEGQ+NsV8vuolWOy/HksTKohH9Q6ZGW/k/rvqs6AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpQDSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLsTZPsPYk0DhL0AAAA=[0m[Pipeline] }
+ERROR: Execution failed
+java.nio.channels.ClosedChannelException
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from 10.244.0.238/10.244.0.238:42860
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1916)
+		at hudson.remoting.Request.call(Request.java:204)
+		at hudson.remoting.Channel.call(Channel.java:1107)
+		at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:306)
+		at PluginClassLoader for git-client/jdk.proxy78/jdk.proxy78.$Proxy180.withRepository(Unknown Source)
+		at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl.withRepository(RemoteGitImpl.java:264)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM.printCommitMessageToLog(GitSCM.java:1429)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1369)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1278)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)
+		at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:49)
+Also:   org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: b05660ce-649e-4c23-b1f0-b05a9c15469e
+Caused: hudson.remoting.RequestAbortedException
+	at hudson.remoting.Request.abort(Request.java:358)
+	at hudson.remoting.Channel.terminate(Channel.java:1189)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:241)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:826)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:289)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:176)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:278)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:505)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:243)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:195)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:208)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:794)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:348)
+	at hudson.remoting.Channel.close(Channel.java:1619)
+	at hudson.remoting.Channel.close(Channel.java:1567)
+	at hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:949)
+	at hudson.slaves.SlaveComputer$2.run(SlaveComputer.java:823)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Retrying
+[8mha:////4IzCHwgzbTlWwu+Ep4N6gqJLR14i8sUpN0h7FGp6JKdXAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYRToFSIitZywwtMYowT6y7YF5KKF/E1/oAhEhVb7ay0mucLyhThQNHJzmLvMTVeDmF0ucmJYn8JNMmOzrIhTBSs1HbS1NrjgprYwhJRwErB2mITKHl0DBvVmbupgkFXnTjmba+g8O0NHiBUNrOJ/IU5wvY6tonw5/krgHlgEDVDsas/x/IN7Lv2V8EAAAA=[0m[Pipeline] {
+[8mha:////4JR9n4zI903pvzD2UP1ckjmioc8Przg6mBPEiIZgCyAFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] node
+Created Pod: minikube devops-tools/des-1-b9969-4lbm3-kn486
+[PodInfo] devops-tools/des-1-b9969-4lbm3-kn486
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker jnlp]
+[PodInfo] devops-tools/des-1-b9969-4lbm3-kn486
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker jnlp]
+Still waiting to schedule task
+‘[8mha:////4I0LgWKyiye3Y6WzbQJQFiz3SOYZEFwRdDEHHeSE/HhJAAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYt/eT83ILSktQi/ZTUYlUjF0MgTrK0NLME0iY5SbnGQDo7z8TCTB8AKC8DHt8AAAA=[0mdes-1-b9969-4lbm3-kn486’ is offline
+Agent [8mha:////4DomxZN22UOxnr5CG7v2OYPhKpAd0J8k4vPEkV6Pl7iKAAAArR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgZF/eT83ILSktQi/ZTUYl1D3SRLSzNLXZOcpFxj3ew8EwszAMsslFLWAAAA[0mdes-1-b9969-4lbm3-kn486 is provisioned from template DES_1-b9969-4lbm3
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    kubernetes.jenkins.io/last-refresh: "1756053774573"
+    buildUrl: "http://10.97.245.121:8080/job/DES/1/"
+    runUrl: "job/DES/1/"
+  labels:
+    jenkins: "slave"
+    jenkins/label-digest: "51531389df6b76f78958f9e0cd3d244d342fb8a0"
+    jenkins/label: "DES_1-b9969"
+    kubernetes.jenkins.io/controller: "http___10_97_245_121_8080x"
+  name: "des-1-b9969-4lbm3-kn486"
+  namespace: "devops-tools"
+spec:
+  containers:
+  - args:
+    - "infinity"
+    command:
+    - "sleep"
+    image: "maven:3.9.11-eclipse-temurin-21"
+    name: "maven"
+    securityContext:
+      runAsUser: 0
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - args:
+    - "--host=tcp://0.0.0.0:2375"
+    command:
+    - "dockerd"
+    env:
+    - name: "DOCKER_HOST"
+      value: "tcp://0.0.0.0:2375"
+    image: "docker:28.3-dind"
+    name: "docker"
+    securityContext:
+      privileged: true
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "REMOTING_OPTS"
+      value: "-noReconnectAfter 1d"
+    - name: "JENKINS_AGENT_NAME"
+      value: "des-1-b9969-4lbm3-kn486"
+    - name: "JENKINS_NAME"
+      value: "des-1-b9969-4lbm3-kn486"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://10.97.245.121:8080/"
+    image: "jenkins/inbound-agent:3309.v27b_9314fd1a_4-1"
+    name: "jnlp"
+    resources:
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4I0LgWKyiye3Y6WzbQJQFiz3SOYZEFwRdDEHHeSE/HhJAAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzxEgYt/eT83ILSktQi/ZTUYlUjF0MgTrK0NLME0iY5SbnGQDo7z8TCTB8AKC8DHt8AAAA=[0mdes-1-b9969-4lbm3-kn486 in /home/jenkins/agent/workspace/DES
+[8mha:////4EGzD6GGqARH0r1CSW+VfJKr7Wu/TqJRF9wL/FsvVJMJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] {
+[8mha:////4PL3jHimIs8GIWfL+j9zkTi+nRx2Raop8Nl/PzqkK98OAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JTAm7EzsJ4b15B09E73OzEZJP1O/4ynkbMdjgSyxoPDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] {
+[8mha:////4GcGLeLrDMtkbpw0rx/LHsJW2TU18zlJy2mKKuIKQ5cQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] stage
+[8mha:////4LLEfIfi2QYrIOJMZ8LWnZHSzYUwJBISlls3diJZZ5tZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] { (Checkout)
+[8mha:////4CfbZlamD0JMRxoR7PRcsy+EPvK0aI7uY6zHrd7pWe13AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] container
+[8mha:////4FQ2Kyo8ENBUEXYwSGpYVKGFPzgbj/PmIXfjApWcbNJeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] {
+[8mha:////4JoLg3UFF4fnr9EsPy4c/1ubCJWRV4fAtIFgz048lzKIAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSkA5R0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMPkEZb3/VO3fhXiFur4AAAA=[0m[Pipeline] git
+The recommended git tool is: NONE
+using credential DEPLOY_KEY
+Warning: JENKINS-30600: special launcher org.csanchez.jenkins.plugins.kubernetes.pipeline.ContainerExecDecorator$1@7e334102; decorates RemoteLauncher[hudson.remoting.Channel@2f65a70e:JNLP4-connect connection from 10.244.0.239/10.244.0.239:50924] will be ignored (a typical symptom is the Git executable not being run inside a designated container)
+Cloning the remote Git repository
+Cloning repository git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+ > git init /home/jenkins/agent/workspace/DES # timeout=10
+Fetching upstream changes from git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_SSH to set credentials chave ssh para acessar repositório privado no github
+[INFO] SELinux is present on the host and we could not confirm that it does not apply actively: will try to relabel temporary files now; this may complain if context labeling not applicable after all
+ > /usr/bin/chcon --type=ssh_home_t /home/jenkins/agent/workspace/DES@tmp/jenkins-gitclient-ssh16668474931780771399.key
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- git@github.com:samuel-cavalcanti/quarkus-quickstart.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:samuel-cavalcanti/quarkus-quickstart.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision 6449a20b7be5da43f215ce749cb412170d06a1ae (refs/remotes/origin/main)
+[PodInfo] devops-tools/des-1-b9969-4lbm3-kn486
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+[PodInfo] devops-tools/des-1-b9969-4lbm3-kn486
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+devops-tools/des-1-b9969-4lbm3-kn486 Container docker was terminated.
+
+- docker -- terminated (1)
+-----Logs-------------
+time="2025-08-24T16:43:19.354329546Z" level=info msg="loading plugin \"io.containerd.grpc.v1.sandbox-controllers\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.354365283Z" level=info msg="loading plugin \"io.containerd.grpc.v1.sandboxes\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.354411460Z" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.354455593Z" level=info msg="loading plugin \"io.containerd.grpc.v1.streaming\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.354514413Z" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.354547446Z" level=info msg="loading plugin \"io.containerd.transfer.v1.local\"..." type=io.containerd.transfer.v1
+time="2025-08-24T16:43:19.354631694Z" level=info msg="loading plugin \"io.containerd.grpc.v1.transfer\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.354665327Z" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.354711414Z" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+time="2025-08-24T16:43:19.354883337Z" level=info msg="loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." type=io.containerd.tracing.processor.v1
+time="2025-08-24T16:43:19.355124981Z" level=info msg="skip loading plugin \"io.containerd.tracing.processor.v1.otlp\"..." error="skip plugin: tracing endpoint not configured" type=io.containerd.tracing.processor.v1
+time="2025-08-24T16:43:19.355153956Z" level=info msg="loading plugin \"io.containerd.internal.v1.tracing\"..." type=io.containerd.internal.v1
+time="2025-08-24T16:43:19.355271056Z" level=info msg="skip loading plugin \"io.containerd.internal.v1.tracing\"..." error="skip plugin: tracing endpoint not configured" type=io.containerd.internal.v1
+time="2025-08-24T16:43:19.355315600Z" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+time="2025-08-24T16:43:19.355359853Z" level=info msg="loading plugin \"io.containerd.nri.v1.nri\"..." type=io.containerd.nri.v1
+time="2025-08-24T16:43:19.355385341Z" level=info msg="NRI interface is disabled by configuration."
+time="2025-08-24T16:43:19.357986821Z" level=info msg=serving... address=/var/run/docker/containerd/containerd-debug.sock
+time="2025-08-24T16:43:19.358663453Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock.ttrpc
+time="2025-08-24T16:43:19.360591127Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock
+time="2025-08-24T16:43:19.364824015Z" level=info msg="containerd successfully booted in 0.327774s"
+time="2025-08-24T16:43:19.411606444Z" level=info msg="OTEL tracing is not configured, using no-op tracer provider"
+time="2025-08-24T16:43:19.412581588Z" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/var/run/cdi
+time="2025-08-24T16:43:19.412650728Z" level=info msg="CDI directory does not exist, skipping: failed to monitor for changes: no such file or directory" dir=/etc/cdi
+time="2025-08-24T16:43:19.464421876Z" level=info msg="Creating a containerd client" address=/var/run/docker/containerd/containerd.sock timeout=1m0s
+time="2025-08-24T16:43:19.507806668Z" level=info msg="Loading containers: start."
+time="2025-08-24T16:43:19.755262887Z" level=info msg="stopping event stream following graceful shutdown" error="<nil>" module=libcontainerd namespace=moby
+time="2025-08-24T16:43:19.756092206Z" level=info msg="stopping healthcheck following graceful shutdown" module=libcontainerd
+time="2025-08-24T16:43:19.756675603Z" level=info msg="stopping event stream following graceful shutdown" error="context canceled" module=libcontainerd namespace=plugins.moby
+failed to start daemon: Error initializing network controller: error obtaining controller instance: failed to register "bridge" driver: failed to create NAT chain DOCKER: iptables failed: iptables --wait -t nat -N DOCKER: iptables v1.8.11 (nf_tables): Could not fetch rule set generation id: Invalid argument
+ (exit status 4)
+
+
+- jnlp -- running
+-----Logs-------------
+INFO: Both error and output logs will be printed to /home/jenkins/agent/remoting
+Aug 24, 2025 4:42:58 PM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: des-1-b9969-4lbm3-kn486
+Aug 24, 2025 4:42:58 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3309.v27b_9314fd1a_4
+Aug 24, 2025 4:42:58 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using /home/jenkins/agent/remoting as a remoting work directory
+Aug 24, 2025 4:43:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://10.97.245.121:8080/]
+Aug 24, 2025 4:43:04 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Aug 24, 2025 4:43:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 10.97.245.121
+  Agent port:    50000
+  Identity:      b5:2f:49:e1:0c:9a:2e:8d:7b:2d:06:a3:16:34:67:e0
+Aug 24, 2025 4:43:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+Aug 24, 2025 4:43:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to 10.97.245.121:50000
+Aug 24, 2025 4:43:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+Aug 24, 2025 4:43:04 PM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Aug 24, 2025 4:43:04 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Aug 24, 2025 4:43:07 PM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: b5:2f:49:e1:0c:9a:2e:8d:7b:2d:06:a3:16:34:67:e0
+Aug 24, 2025 4:43:07 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
+
+
+- maven -- running
+-----Logs-------------
+
+[PodInfo] devops-tools/des-1-b9969-4lbm3-kn486
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+[PodInfo] devops-tools/des-1-b9969-4lbm3-kn486
+	Container [docker] terminated [Error] No message
+	Pod [Running][ContainersNotReady] containers with unready status: [docker]
+ERROR: Checkout failed
+java.nio.channels.ClosedChannelException
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from 10.244.0.239/10.244.0.239:50924
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1916)
+		at hudson.remoting.Request.call(Request.java:204)
+		at hudson.remoting.Channel.call(Channel.java:1107)
+		at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:306)
+		at PluginClassLoader for git-client/jdk.proxy78/jdk.proxy78.$Proxy180.withRepository(Unknown Source)
+		at PluginClassLoader for git-client//org.jenkinsci.plugins.gitclient.RemoteGitImpl.withRepository(RemoteGitImpl.java:264)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM.printCommitMessageToLog(GitSCM.java:1429)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM._checkout(GitSCM.java:1369)
+		at PluginClassLoader for git//hudson.plugins.git.GitSCM.checkout(GitSCM.java:1278)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:136)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:101)
+		at PluginClassLoader for workflow-scm-step//org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:88)
+		at PluginClassLoader for workflow-step-api//org.jenkinsci.plugins.workflow.steps.SynchronousNonBlockingStepExecution.lambda$start$0(SynchronousNonBlockingStepExecution.java:49)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+		at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+Caused: hudson.remoting.RequestAbortedException
+	at hudson.remoting.Request.abort(Request.java:358)
+	at hudson.remoting.Channel.terminate(Channel.java:1189)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:241)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:826)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:289)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:176)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.switchToNoSecure(SSLEngineFilterLayer.java:278)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processWrite(SSLEngineFilterLayer.java:505)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.processQueuedWrites(SSLEngineFilterLayer.java:243)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doSend(SSLEngineFilterLayer.java:195)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.doCloseSend(SSLEngineFilterLayer.java:208)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.doCloseSend(ProtocolStack.java:794)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.doCloseWrite(ApplicationLayer.java:172)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer$ByteBufferCommandTransport.closeWrite(ChannelApplicationLayer.java:348)
+	at hudson.remoting.Channel.close(Channel.java:1619)
+	at hudson.remoting.Channel.close(Channel.java:1567)
+	at hudson.slaves.SlaveComputer.closeChannel(SlaveComputer.java:949)
+	at hudson.slaves.SlaveComputer.kill(SlaveComputer.java:915)
+	at hudson.model.AbstractCIBase.killComputer(AbstractCIBase.java:98)
+	at hudson.model.AbstractCIBase.updateComputerList(AbstractCIBase.java:275)
+	at jenkins.model.Jenkins.updateComputers(Jenkins.java:1617)
+	at jenkins.model.Nodes.removeNode(Nodes.java:304)
+	at jenkins.model.Jenkins.removeNode(Jenkins.java:2199)
+	at hudson.slaves.AbstractCloudSlave.terminate(AbstractCloudSlave.java:91)
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper.logLastLinesThenTerminateNode(Reaper.java:557)
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper.logAndCleanUp(Reaper.java:539)
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$TerminateAgentOnContainerTerminated.onEvent(Reaper.java:463)
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$CloudPodWatcher.lambda$eventReceived$0(Reaper.java:328)
+	at jenkins.util.Listeners.lambda$notify$0(Listeners.java:59)
+	at jenkins.util.Listeners.notify(Listeners.java:67)
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$CloudPodWatcher.eventReceived(Reaper.java:324)
+	at PluginClassLoader for kubernetes//org.csanchez.jenkins.plugins.kubernetes.pod.retention.Reaper$CloudPodWatcher.eventReceived(Reaper.java:283)
+	at PluginClassLoader for kubernetes-client-api//io.fabric8.kubernetes.client.utils.internal.WatcherToggle.eventReceived(WatcherToggle.java:48)
+	at PluginClassLoader for kubernetes-client-api//io.fabric8.kubernetes.client.dsl.internal.AbstractWatchManager$SerialWatcher.lambda$eventReceived$0(AbstractWatchManager.java:70)
+	at PluginClassLoader for kubernetes-client-api//io.fabric8.kubernetes.client.utils.internal.SerialExecutor.lambda$execute$0(SerialExecutor.java:67)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+ERROR: Maximum checkout retry attempts reached, aborting
+[8mha:////4EqYY6CGxxSMp+LVa+A4ZnRYXc0ZMnQYxwMvXK3rV+OnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BlK8YfC+AAAA[0m[Pipeline] }
+Agent des-1-b9969-4lbm3-kn486 was deleted; cancelling node body
+[8mha:////4J3Ez+o3NSLeoX/uWiLEh6QoURFDmxQ7ldDFkTT6/2aAAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFq/vIBvgAAAA==[0m[Pipeline] // container
+[8mha:////4IuxV0A/PIrvAHGnNsh5fNZrSfCRURwE0uHYVE24kFn7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCQKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g11fKdTvgAAAA==[0m[Pipeline] }
+[8mha:////4H2/pSItUQxuvIrQFssoYnA7A4SGmVo9XIHhOSCH/vhIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQYGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgE2/vbVvgAAAA==[0m[Pipeline] // stage
+[8mha:////4L7MuuvVLNIjIvlMN3ghBFU6cARuQGiixAGaYN2Qfyq1AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gKVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQHRrK31wgAAAA==[0m[Pipeline] stage
+[8mha:////4PRCK2KeoVlLz0U6HEeHxhYOxwJOLFWlRBHbyxtYp9/4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUAQaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0iH00AwgAAAA==[0m[Pipeline] { (Test and build)
+Stage "Test and build" skipped due to earlier failure(s)
+[8mha:////4C/1mzR4GWeBT/IPSj7kkdvxhDhmvp/XUafnpHgO/2N8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICBRWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvT8cju+AAAA[0m[Pipeline] getContext
+[8mha:////4OrMfPf7GVP8W3aC4DCHuWYdu4LsQGF8PC1JD8gGt+z8AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCkKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbN6XnAcu+AAAA[0m[Pipeline] }
+[8mha:////4I2Vj/2cYb78/rv1n/rx4KRWsftCxwzsnlA7xRjq8yVvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw/lvZpgvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BX9EZ5JaqKz0pMysUDKBD7J79mxtjr2ZW4EurfvZ10NAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AAaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WfbbT/P6g27tETvwgAAAA==[0m[Pipeline] stage
+[8mha:////4K4wIRqo6BGOhL6Zi7sM8n2y90vjkst6n00ZEyxkvPq6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Build docker Image)
+Stage "Build docker Image" skipped due to earlier failure(s)
+[8mha:////4HpWKAOtLK9kVzu3xtjTeMfxD6QZkG+QVQQ6zam2UemXAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxcaxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NlEULJr4AAAA=[0m[Pipeline] getContext
+[8mha:////4LJ1CfCyXCe1aIbvyCWguJULqhEY1D9R0YqC0k7/GXu/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfmYKm674AAAA=[0m[Pipeline] }
+[8mha:////4KTebMF0THDQQTb8yLYuVDeq1WAEDcjzh0R8gLioW10IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHaAPdtvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BVWsl6po5fkz1180n4JyUkNmU9mBbie6hKmLQ6Q8gShAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIIoIUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9ECECOvgAAAA==[0m[Pipeline] }
+[8mha:////4IsI5h4BN/O6EbrgLJ1jc8zowGTT9yrwSSpMLv8VkmjVAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKChISQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDh3Og774AAAA=[0m[Pipeline] // withEnv
+[8mha:////4CzMOslKEwz+AzdWx2tQUStB1FVoHbkRbaQ9Z4mlvEs6AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAs71DtL4AAAA=[0m[Pipeline] }
+[8mha:////4B0J7WWpCAOCGmLbQ/u4Gu0hiZ6Kl9Ylr+YMonedEZQmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigZQGUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g+L/9BFvgAAAA==[0m[Pipeline] // node
+[8mha:////4PBUWkWyKrwiUHJ2qa9W9S3Z2M2ZG3XVTfHEV54I96iFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRNAgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda56/wGUfYUXvgAAAA==[0m[Pipeline] }
+[8mha:////4IQPu5pYbgyQK00Pgu0eDnhLd3oSV/lnz0bD/o4+pz1VAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI91tBtvsAa43HTb0AAAA=[0m[Pipeline] // retry
+[8mha:////4Dui3ss982WaeV6oDZGQuo6fBaA50nK4u5eQZZQMF0R9AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiI0auNY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI9ztBtv0ATZSgB70AAAA=[0m[Pipeline] }
+[8mha:////4OB9oBl+tkxaSZChQxjmLgAtapsXzA/PV71kMgCXuSqHAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IMJizGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0HPntk3r0AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4OLTvG43C2GtqXevk8TLg9TiQREfcQnuT99qksWKbJT1AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRKKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Lu9INt+ABhiA5S9AAAA[0m[Pipeline] End of Pipeline
+Agent was removed
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 5059def3-9b22-4cb0-b043-ce66e9af57f2
+Finished: ABORTED

@@ -1,0 +1,108 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1540.v295eccc9778f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.33-484.v2fcd689980d1">
+      <queuingDurationMillis>3</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@752.vdddedf804e72">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@4183.v94b_6fd39da_c1">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder plugin="credentials@1419.v2337d1ceceef">
+      <boundCredentials class="concurrent-hash-map"/>
+    </com.cloudbees.plugins.credentials.builds.CredentialsParameterBinder>
+    <jenkins.metrics.impl.SubTaskTimeInQueueAction plugin="metrics@4.2.33-484.v2fcd689980d1">
+      <queuingDurationMillis>9233</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>9193</buildableDurationMillis>
+      <waitingDurationMillis>5</waitingDurationMillis>
+      <executingDurationMillis>4327</executingDurationMillis>
+      <workUnitCount>1</workUnitCount>
+    </jenkins.metrics.impl.SubTaskTimeInQueueAction>
+  </actions>
+  <queueId>75</queueId>
+  <timestamp>1756077301752</timestamp>
+  <startTime>1756077301757</startTime>
+  <result>FAILURE</result>
+  <duration>24217</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>// Build a Maven project using the standard image and Scripted syntax.
+podTemplate(
+    agentContainer: &apos;maven&apos;,
+    agentInjection: true,
+    yaml: readTrusted(&apos;kube_yamls/jenkins/jenkins-pod.yaml&apos;)
+) {
+    retry(count: 2, conditions: [kubernetesAgent(), nonresumable()]) {
+        node(POD_LABEL) {
+            git (
+                url:&apos;git@github.com:samuel-cavalcanti/quarkus-quickstart.git&apos;,
+                branch: &apos;main&apos;,
+                credentialsId: &apos;GITHUB_DEPLOY_KEY&apos;,
+                )
+                
+            sh &apos;HOME=$WORKSPACE_TMP/maven mvn -B -ntp verify&apos;
+            sh &apos;HOME=$WORKSPACE_TMP/maven mvn -B -ntp package&apos;
+        }
+    }
+}
+
+
+
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>210224229</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>271075745</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>872605057</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>659875087</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>356871025</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>166980076</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>17</iota>
+    <head>1:17</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

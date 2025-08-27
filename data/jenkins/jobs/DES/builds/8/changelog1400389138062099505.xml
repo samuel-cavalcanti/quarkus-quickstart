@@ -1,0 +1,13 @@
+commit 8ea519eb8119cf9d4971919a17d1c469d7479681
+tree 466e9ac3781c619c5a378f1968cb74e267d99480
+parent 6449a20b7be5da43f215ce749cb412170d06a1ae
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-24 20:17:29 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-24 20:18:55 -0300
+
+    feat: add docker build and publish
+
+
+:100644 100644 dbfd2fa62e5e0222bc2ce1fb9f119974a6bb5087 7658afd0d793cb11f6d707ead5474220dc88f8f3 M	Jenkinsfile
+:100644 100644 431795a6209b2017c61b25efd51f9984b2c3cbde 1be574686c5956db55de91f22abcf03f032b2a48 M	kube_yamls/jenkins/README.md
+:100644 100644 d006117d948b45e2c465d2b382dbeee81556a218 e5fa4ffec45107176c1f6a24929b72d56c978c3f M	kube_yamls/jenkins/jenkins-03-deployment.yaml
+:100644 100644 979cbc30c44d99e56d461da1893f135d3a33a6a0 419502efa20b41163cdb3a40183f7685abaa2e15 M	kube_yamls/jenkins/jenkins-pod.yaml

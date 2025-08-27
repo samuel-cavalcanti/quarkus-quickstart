@@ -1,0 +1,329 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1540.v295eccc9778f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.33-484.v2fcd689980d1">
+      <queuingDurationMillis>3</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@752.vdddedf804e72">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2265.v140e610fe9d5">
+      <stagesUUID>07394e53-2be3-4802-bceb-ec5bd59c2727</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2265.v140e610fe9d5">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>Delete Pod</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                        <name>container</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTSingleArgument">
+                          <value class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue$ConstantValue">
+                            <value class="string">kubectl</value>
+                          </value>
+                        </args>
+                        <children>
+                          <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                            <name>sh</name>
+                            <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                              <arguments class="linked-hash-map">
+                                <entry>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                    <key>script</key>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                    <value class="string">kubectl delete pod -n quickstart -l app=des-server</value>
+                                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                </entry>
+                              </arguments>
+                            </args>
+                          </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        </children>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTTreeStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>07394e53-2be3-4802-bceb-ec5bd59c2727</uuid>
+          </stages>
+          <environment>
+            <variables class="linked-hash-map">
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>IMAGE_NAME</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                  <value class="string">quickstart</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+              </entry>
+              <entry>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <key>TAG</key>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                  <value class="string">&quot;${env.BUILD_ID}&quot;</value>
+                </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+              </entry>
+            </variables>
+          </environment>
+          <agent>
+            <variables class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTClosureMap">
+              <variables class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                    <key>yaml</key>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                    <value class="string">
+apiVersion: v1
+kind: Pod
+spec:
+  serviceAccountName: jenkins-admin
+  containers:
+    - name: maven
+      image: maven:3.9.11-eclipse-temurin-21
+      command:
+        - sleep
+      args:
+        - infinity
+      securityContext:
+        # maven runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission &quot;restricted&quot;) to run as a non-root user.
+        runAsUser: 0
+    - name: docker
+      image: docker:28.3-dind
+      command:
+        - dockerd
+      args:
+        - --host=tcp://0.0.0.0:2375
+        - --iptables=false # Disable iptables
+      env:
+        - name: DOCKER_HOST
+          value: tcp://0.0.0.0:2375
+      securityContext:
+        # ubuntu runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission &quot;restricted&quot;) to run as a non-root user.
+        privileged: true
+
+    - name: kubectl
+      image: bitnami/kubectl:latest
+      command:
+        - &quot;cat&quot;
+        #- &quot;/bin/sh&quot;
+        
+      #args:
+      #  - &quot;-c&quot;
+      #  - &quot;sleep infinity&quot; 
+      #tty: true
+      securityContext:
+        runAsUser: 0
+
+            
+            </value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                    <key>retries</key>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                    <value class="int">2</value>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                </entry>
+              </variables>
+            </variables>
+            <agentType>
+              <key>kubernetes</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@4183.v94b_6fd39da_c1">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueTaskCancelled plugin="workflow-durable-task-step@1452.v0ee719c104a_7"/>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+    <jenkins.model.InterruptedBuildAction>
+      <causes>
+        <org.jenkinsci.plugins.workflow.support.steps.ExecutorStepExecution_-QueueTaskCancelled plugin="workflow-durable-task-step@1452.v0ee719c104a_7"/>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>137</queueId>
+  <timestamp>1756212729368</timestamp>
+  <startTime>1756212729374</startTime>
+  <result>ABORTED</result>
+  <duration>18149</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>pipeline {
+    agent {
+        kubernetes {
+            yaml &apos;&apos;&apos;
+apiVersion: v1
+kind: Pod
+spec:
+  serviceAccountName: jenkins-admin
+  containers:
+    - name: maven
+      image: maven:3.9.11-eclipse-temurin-21
+      command:
+        - sleep
+      args:
+        - infinity
+      securityContext:
+        # maven runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission &quot;restricted&quot;) to run as a non-root user.
+        runAsUser: 0
+    - name: docker
+      image: docker:28.3-dind
+      command:
+        - dockerd
+      args:
+        - --host=tcp://0.0.0.0:2375
+        - --iptables=false # Disable iptables
+      env:
+        - name: DOCKER_HOST
+          value: tcp://0.0.0.0:2375
+      securityContext:
+        # ubuntu runs as root by default, it is recommended or even mandatory in some environments (such as pod security admission &quot;restricted&quot;) to run as a non-root user.
+        privileged: true
+
+    - name: kubectl
+      image: bitnami/kubectl:latest
+      command:
+        - &quot;cat&quot;
+        #- &quot;/bin/sh&quot;
+        
+      #args:
+      #  - &quot;-c&quot;
+      #  - &quot;sleep infinity&quot; 
+      #tty: true
+      securityContext:
+        runAsUser: 0
+
+            
+            &apos;&apos;&apos;
+            retries 2
+        }
+    }
+     environment {
+        IMAGE_NAME = &apos;quickstart&apos;
+        TAG = &quot;${env.BUILD_ID}&quot;
+    }
+    
+    stages {
+        // stage(&apos;Checkout&apos;) {
+        //     steps {
+        //         container(&apos;maven&apos;) {
+        //           git (
+        //                 url:&apos;git@github.com:samuel-cavalcanti/quarkus-quickstart.git&apos;,
+        //                 branch: &apos;main&apos;,
+        //                 credentialsId: &apos;DEPLOY_KEY&apos;,
+        //                 )
+        //         }
+        //     }
+        // }
+
+        // stage(&apos;Test and build&apos;){
+        //     steps {
+        //         container(&apos;maven&apos;) {
+        //           sh &apos;mvn -B -ntp verify&apos;
+        //         }
+        //     }
+        // }
+        
+        // stage(&apos;Build docker Image&apos;){
+        //     steps {
+        //           container(&apos;docker&apos;) {
+        //             script {
+        //                 withCredentials([usernamePassword(
+        //                     credentialsId: &apos;DOCKERHUB&apos;,
+        //                     usernameVariable: &apos;REGISTRY_USER&apos;,
+        //                     passwordVariable: &apos;REGISTRY_PASSWORD&apos;
+        //                 )]) {
+        //                     sh &quot;&quot;&quot;
+        //                     docker build -t ${env.REGISTRY_USER}/${env.IMAGE_NAME}:${env.TAG} .
+        //                     docker login -u $REGISTRY_USER -p $REGISTRY_PASSWORD
+        //                     docker tag ${env.REGISTRY_USER}/${env.IMAGE_NAME}:${env.TAG} ${env.REGISTRY_USER}/${env.IMAGE_NAME}:latest
+        //                     docker push ${env.REGISTRY_USER}/${env.IMAGE_NAME}:${env.TAG}
+        //                     docker push ${env.REGISTRY_USER}/${env.IMAGE_NAME}:latest
+        //                     &quot;&quot;&quot;
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+
+        stage(&apos;Delete Pod&apos;){
+            steps{
+                    container(&apos;kubectl&apos;){
+                        sh &apos;kubectl delete pod -n quickstart -l app=des-server&apos;
+                    }
+
+                }
+
+        }
+    }
+}
+</script>
+    <loadedScripts class="linked-hash-map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>318905297</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>680689618</long>
+      </entry>
+      <entry>
+        <string>runQueue</string>
+        <long>939750223</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>1390714443</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>94579247</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>178928050</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set"/>
+    <sandbox>true</sandbox>
+    <iota>17</iota>
+    <head>1:17</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

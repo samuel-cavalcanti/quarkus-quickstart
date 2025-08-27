@@ -1,0 +1,43 @@
+commit f53f14d55484ae6048963460cd1e85cec40f0935
+tree ddd4a259bcefe8610d6f8ea21eeca2f15386e1bc
+parent b7b5fb8d825bea3200253ad936b5114433cee22a
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:28:17 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:28:17 -0300
+
+    fix: bad substitution
+
+
+:100644 100644 81632341d17190e547f58f97d1cf12f9285e53c1 f2ef20bfb773b459839ab9514ca83671bdaedd65 M	Jenkinsfile_PRD
+commit b7b5fb8d825bea3200253ad936b5114433cee22a
+tree 4cb3eedaa503f253b3a1d74d219211ac4ff53bfb
+parent cc1cbed9917c99e2347dd3043e1b716556b8b966
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:20:49 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 19:20:49 -0300
+
+    fix: add jenkins-admin permission to quickstart/deployment
+
+
+:100644 100644 86616764f02f33d6d143df7acc8edbd92574cfb4 b6bf397776b1e6653329d425e649fbbf972f2b7a M	Jenkinsfile_DES
+:000000 100644 0000000000000000000000000000000000000000 11d9853a6b2942102076146927c062a191b15509 A	kube_yamls/jenkins/deployment-role.yaml
+commit cc1cbed9917c99e2347dd3043e1b716556b8b966
+tree 9f0834fccf6552b6cddafab875d7b80aded97de7
+parent 98f18d280865cb469f4d257aad178dec8072add2
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 18:57:07 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 18:57:07 -0300
+
+    docs: add information about versioning
+
+
+:100644 100644 6cf8cbcf860bda7170c606539c77cedc69ffa531 d90a4df4c09f4c28028c1b5c5373d6c7f5cba6dc M	doc_hackathon.md
+commit 98f18d280865cb469f4d257aad178dec8072add2
+tree 204af81132305853005833ce0a5fa40e2c1ed46d
+parent 4bf35fbdccf2afcb94e5f8e72e9431e1f74f6895
+author samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 18:21:54 -0300
+committer samuel-cavalcanti <scavalcanti111@gmail.com> 2025-08-26 18:24:12 -0300
+
+    feat: control the app version through JenkinsFile
+
+
+:100644 100644 4d86449ec5693f953cff17323df6bf60821ec54a 86616764f02f33d6d143df7acc8edbd92574cfb4 M	Jenkinsfile_DES
+:100644 100644 310d5bc652c3d243def212dad5645c62c064074e 81632341d17190e547f58f97d1cf12f9285e53c1 M	Jenkinsfile_PRD
+:100644 100644 63da881e2070a99709c2cd0015b3fbf089482212 6cf8cbcf860bda7170c606539c77cedc69ffa531 M	doc_hackathon.md

@@ -1,0 +1,421 @@
+Started by user [8mha:////4FkPqxGAQNrLzfv2rpdNojzhdZaynpURXwxPiEFkORtbAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0madministrator
+Obtained Jenkinsfile_DES from git git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+[8mha:////4NtYXHZ4zB97FZpM4ipyey4PkbPNVTeVXTqAdVAfg//LAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4IhaxRM6a+fSEH4/phuLs4fkl6a4bbh5x+FxAkfdSmFvAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbaGmsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfya1RxvAAAAA==[0m[Pipeline] readTrusted
+Obtained kube_yamls/jenkins/jenkins-pod.yaml from git git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+[8mha:////4I2/fVl1KYLlFZLnNB8PWwiu3Nn1cbpIzdYs7KQNa7LPAAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SFSEHfiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/WVBy+wAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4N9gwG704R6P9oxjhVLbHnkbK0IeWAKiNDeu325udXCwAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] {
+[8mha:////4OjZsh+TGK3I68xU+JXYmMxF6+VILSxwGSQWyzO2W9W7AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] retry
+[8mha:////4IM/TSim4Se3m/RbRiCPtY6QwUob+c2giJelwmVuo0KHAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4DwU6vdiSWwBmiVUca5aCfqOhWq0RdJ0S63h7b+J3PUjAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] node
+Created Pod: minikube devops-tools/des-45-sjmbv-r2dvt-46lml
+[PodInfo] devops-tools/des-45-sjmbv-r2dvt-46lml
+	Container [docker] waiting [ContainerCreating] No message
+	Container [jnlp] waiting [ContainerCreating] No message
+	Container [kubectl] waiting [ContainerCreating] No message
+	Container [maven] waiting [ContainerCreating] No message
+	Pod [Pending][ContainersNotReady] containers with unready status: [maven docker kubectl jnlp]
+Agent [8mha:////4EynjWglmwRg6j9zj7eGSkD4Pm3KyMltKKu3fXDetio9AAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgYl/eT83ILSktQi/ZTUYl0TU93irNykMt0io5SyEl0Ts5zcHAC5NpIJ1wAAAA==[0mdes-45-sjmbv-r2dvt-46lml is provisioned from template DES_45-sjmbv-r2dvt
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  annotations:
+    kubernetes.jenkins.io/last-refresh: "1756247619859"
+    buildUrl: "http://10.97.245.121:8080/job/DES/45/"
+    runUrl: "job/DES/45/"
+  labels:
+    jenkins: "slave"
+    jenkins/label-digest: "8e891b3cb30282cceaf8b79dbe829748a2d2281c"
+    jenkins/label: "DES_45-sjmbv"
+    kubernetes.jenkins.io/controller: "http___10_97_245_121_8080x"
+  name: "des-45-sjmbv-r2dvt-46lml"
+  namespace: "devops-tools"
+spec:
+  containers:
+  - args:
+    - "infinity"
+    command:
+    - "sleep"
+    image: "maven:3.9.11-eclipse-temurin-21"
+    name: "maven"
+    securityContext:
+      runAsUser: 0
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - args:
+    - "--host=tcp://0.0.0.0:2375"
+    - "--iptables=false"
+    command:
+    - "dockerd"
+    env:
+    - name: "DOCKER_HOST"
+      value: "tcp://0.0.0.0:2375"
+    image: "docker:28.3-dind"
+    name: "docker"
+    securityContext:
+      privileged: true
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - command:
+    - "cat"
+    image: "bitnami/kubectl:latest"
+    name: "kubectl"
+    securityContext:
+      runAsUser: 0
+    tty: true
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "REMOTING_OPTS"
+      value: "-noReconnectAfter 1d"
+    - name: "JENKINS_AGENT_NAME"
+      value: "des-45-sjmbv-r2dvt-46lml"
+    - name: "JENKINS_NAME"
+      value: "des-45-sjmbv-r2dvt-46lml"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://10.97.245.121:8080/"
+    image: "jenkins/inbound-agent:3309.v27b_9314fd1a_4-1"
+    name: "jnlp"
+    resources:
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  serviceAccountName: "jenkins-admin"
+  volumes:
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4PFrLRzKWRR9bqP0C1Psn2ssGQVhCWDE4dLLZPto9LM8AAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgZt/eT83ILSktQi/ZTUYlUjFxNTIFGclZtUBqSLjFLKSkCCZjm5OfoAVqEXp+AAAAA=[0mdes-45-sjmbv-r2dvt-46lml in /home/jenkins/agent/workspace/DES
+[8mha:////4BpTv7hoADR7gr5fREDAZzcDYFhNs3+fDQZ1cKHgYZ+OAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4FhRhuysA+gBoVJRgh/EVKateLCjDRILeCoedoSTHnkPAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] stage
+[8mha:////4IZmeVSSA7ForVJ6gJrEwxnLwyMJE61WMaOhEz9Ad+5YAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4NgMks5/7R6EdXUSQjbErDRpvjP0CAj8Ji8AFYT4aOt0AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential DEPLOY_KEY
+Cloning the remote Git repository
+Cloning repository git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+ > git init /home/jenkins/agent/workspace/DES # timeout=10
+Fetching upstream changes from git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_SSH to set credentials chave ssh para acessar repositório privado no github
+[INFO] SELinux is present on the host and we could not confirm that it does not apply actively: will try to relabel temporary files now; this may complain if context labeling not applicable after all
+ > /usr/bin/chcon --type=ssh_home_t /home/jenkins/agent/workspace/DES@tmp/jenkins-gitclient-ssh7736220139658741371.key
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- git@github.com:samuel-cavalcanti/quarkus-quickstart.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:samuel-cavalcanti/quarkus-quickstart.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Checking out Revision ec60516ee4607085a4da0af2c1cdaeb52d67125e (refs/remotes/origin/main)
+Commit message: "fix: cannot patch resource error"
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec60516ee4607085a4da0af2c1cdaeb52d67125e # timeout=10
+ > git rev-list --no-walk b7b5fb8d825bea3200253ad936b5114433cee22a # timeout=10
+[8mha:////4A4qT821X8ERqZ4VAXn0r0yzfZ8vIDrj31Q/AhWNq5zmAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4Fday31lHTVDIz/hw4j5X65yL+6QCVaSlN8NtXveN0O7AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // stage
+[8mha:////4C/XzMojTOhB5UXnbgIDSifR3SrSDJG0z7cMBNkU4rUkAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjCgqEqGgtN7zAxMY4se6CfSGpeBFf4w8EIlGx1c5Kq3m+oMwJDpS8bBy2AXMdZBd7PzU5UGovkQbZ0FnWhJmik9oNmqw7zqiJHcwRBSwULB3WkXJAz7BSjbmbKhr01YnTtO0VFMHe4AFCTWY2ib8wJlhfe5sJf56/Ahg7BrFjKDbbz7F8AwI4c8rBAAAA[0m[Pipeline] withEnv
+[8mha:////4EPZ7Jep6AErDx7NLsfFpez4ITaSc8KWgZJvSXg4/XhMAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] {
+[8mha:////4Kj7BMDXxmZ82j3keSKWo6+6yKQsenAzdQ8IbD3cp8TQAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] withEnv
+[8mha:////4BM7AmYc0yDwH1emmvesnl14wHfcyqgWEDpJaH8IEUA6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4D3obB9rj3BYCh8RgP78OudRXlMAE6ItiR6gjOlfV+KxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] stage
+[8mha:////4ERn21cko5BrRvIuVOFugJup4qgS9i6YuBrCs4pLadALAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (Checkout)
+[8mha:////4FKEvGw86iDM6xj+xtkic5B/NSAgNDrvYd/GiuDkO7rpAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] container
+[8mha:////4PTWdVcqcr3YlGSOpCdj6kSzyuQmddibfJpHLc7lL1wxAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] {
+[8mha:////4IZOtoDW3aP6LTbUgK6kp6qTQXHv59Ld6BjYKyHGt9pGAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] git
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential DEPLOY_KEY
+Warning: JENKINS-30600: special launcher org.csanchez.jenkins.plugins.kubernetes.pipeline.ContainerExecDecorator$1@4e2bfb55; decorates RemoteLauncher[hudson.remoting.Channel@4c12e670:JNLP4-connect connection from 10.244.1.80/10.244.1.80:45598] will be ignored (a typical symptom is the Git executable not being run inside a designated container)
+Fetching changes from the remote Git repository
+ > git rev-parse --resolve-git-dir /home/jenkins/agent/workspace/DES/.git # timeout=10
+ > git config remote.origin.url git@github.com:samuel-cavalcanti/quarkus-quickstart.git # timeout=10
+Fetching upstream changes from git@github.com:samuel-cavalcanti/quarkus-quickstart.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.39.5'
+using GIT_SSH to set credentials chave ssh para acessar repositório privado no github
+[INFO] SELinux is present on the host and we could not confirm that it does not apply actively: will try to relabel temporary files now; this may complain if context labeling not applicable after all
+ > /usr/bin/chcon --type=ssh_home_t /home/jenkins/agent/workspace/DES@tmp/jenkins-gitclient-ssh3036079264027058457.key
+Verifying host key using manually-configured host key entries
+ > git fetch --tags --force --progress -- git@github.com:samuel-cavalcanti/quarkus-quickstart.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking out Revision ec60516ee4607085a4da0af2c1cdaeb52d67125e (refs/remotes/origin/main)
+Commit message: "fix: cannot patch resource error"
+[8mha:////4MFXEptazQa/Y06Ek3Vo1EY61krQvERuViG8tBt7zNlGAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4G79Sem23x/2YBeUw90e4cauJ1yluUTAH/GnSMchfD2wAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // container
+[8mha:////4P6X/KaYpbGWOwqANxbiXc20nzH8RmuVD1a4pZZbeoRqAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN/oNdtq+AAAA[0m[Pipeline] }
+[8mha:////4AN5eO5bM83n5lBJ4IM2aRocnIDknwAstGzMVvBE5ea/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiaBBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw84NdtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4D7p/XAHsQcJcg0B2CsFaN7V17VEb9mxJQPA25MwDLDJAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMFVCTF2jLJwgJCGkjf4vSUo7cSKuxh0IVGLCg2Vbst7zBVUMcKRgWWewdxiVY4MfbU5sotBfPE2sozNThJG8YcJMgrRplyooGVhUlLDisDaoPEWHNsGGd/Iuay/R1qcU8nbgUDp9gwcUPJOTDOlb5gDb66gj4Y/zFwDzkKDcNdn2zedZvQERC5RwwgAAAA==[0m[Pipeline] stage
+[8mha:////4OqFxIGcu5IBfrf1tvzuOcZDT9LYISYNCMzqGaPmQtg7AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Test and build)
+[8mha:////4E9CHCwQB+wujRfJk5PETkBDxAsCeHKtlY2Ohi+Bi/8DAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUwYRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQH4j6CMwgAAAA==[0m[Pipeline] container
+[8mha:////4GuebJSY4qbM0j6Omrz7sPXzpEOc8WvaNDj6I/2Y+SsJAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUxIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+ty4Up8IAAAA=[0m[Pipeline] {
+[8mha:////4BrCpIKqC2klqvf3Fixm+VW4f0qNpQbTc2OySquULST0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioERUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfettHKdL4AAAA=[0m[Pipeline] sh
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec60516ee4607085a4da0af2c1cdaeb52d67125e # timeout=10
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b main ec60516ee4607085a4da0af2c1cdaeb52d67125e # timeout=10
++ mvn -B -ntp verify
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.acme:getting-started >----------------------
+[INFO] Building getting-started 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ getting-started ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ getting-started ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug target 17] to target/classes
+[WARNING] system modules path not set in conjunction with -source 17
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ getting-started ---
+[INFO] skip non existing resourceDirectory /home/jenkins/agent/workspace/DES/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ getting-started ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 2 source files with javac [debug target 17] to target/test-classes
+[WARNING] system modules path not set in conjunction with -source 17
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ getting-started ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running org.acme.getting.started.GreetingResourceTest
+2025-08-26 22:35:36,076 INFO  [io.quarkus] (main) getting-started 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.25.3) started in 8.819s. Listening on: http://localhost:8081
+2025-08-26 22:35:36,081 INFO  [io.quarkus] (main) Profile test activated. 
+2025-08-26 22:35:36,082 INFO  [io.quarkus] (main) Installed features: [cdi, rest, smallrye-context-propagation, vertx]
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.314 s -- in org.acme.getting.started.GreetingResourceTest
+2025-08-26 22:35:39,866 INFO  [io.quarkus] (main) getting-started stopped in 0.083s
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ getting-started ---
+[INFO] Building jar: /home/jenkins/agent/workspace/DES/target/getting-started-1.0.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- quarkus:3.25.3:build (default) @ getting-started ---
+[INFO] [io.quarkus.deployment.QuarkusAugmentor] Quarkus augmentation completed in 7311ms
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:51 min
+[INFO] Finished at: 2025-08-26T22:35:59Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4KOy2P1JTzak56cc6stuBXlpzPqdi6F9y88uwmVuFKDwAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIilBJR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fKpbQQr4AAAA=[0m[Pipeline] }
+[8mha:////4OaDb1Gyc+4PFJJAGvXEggZZBSFqX4MKeuGIw/wVq76mAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BgSW0ii+AAAA[0m[Pipeline] // container
+[8mha:////4DzTjrzv1CU2bphkl/rFOpTY0Sy3TTu0P3thJB19pLLCAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigSgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwARMxJg74AAAA=[0m[Pipeline] }
+[8mha:////4Fc7OVPlM/dw4yFg588jyW2LvHORdZgGp18/cd8s6ojvAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigYSQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKUu32u7eEDfI7acr4AAAA=[0m[Pipeline] // stage
+[8mha:////4AVpe/dtOUDi3ANQT6Zq66NPSpnOduOqfokiAUsJ1p19AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUiAEk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm9wsrUnwgAAAA==[0m[Pipeline] stage
+[8mha:////4PL3jHimIs8GIWfL+j9zkTi+nRx2Raop8Nl/PzqkK98OAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] { (Build docker Image)
+[8mha:////4JTAm7EzsJ4b15B09E73OzEZJP1O/4ynkbMdjgSyxoPDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD59NhPHCAAAA[0m[Pipeline] container
+[8mha:////4GcGLeLrDMtkbpw0rx/LHsJW2TU18zlJy2mKKuIKQ5cQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4LLEfIfi2QYrIOJMZ8LWnZHSzYUwJBISlls3diJZZ5tZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAbb5KxbCAAAA[0m[Pipeline] script
+[8mha:////4CfbZlamD0JMRxoR7PRcsy+EPvK0aI7uY6zHrd7pWe13AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4FQ2Kyo8ENBUEXYwSGpYVKGFPzgbj/PmIXfjApWcbNJeAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAXzhjwPCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $REGISTRY_PASSWORD
+[8mha:////4G8eKwXDrtipEijYI2qKs2/ARbUZwMsRA9aUT8r71/0pAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oBtiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsPBA4E38IAAAA=[0m[Pipeline] {
+[8mha:////4Duf4mlhMuFCeVUTWBHhrH11Ziu0oESSAPm8FgGi59gHAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSxMqxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NSnc5Zr4AAAA=[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [REGISTRY_PASSWORD]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ docker build -t samuelcavalcanti/quickstart:1.1 .
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 152B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/eclipse-temurin:17
+#2 DONE 2.4s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 115B done
+#3 DONE 0.0s
+
+#4 [1/2] FROM docker.io/library/eclipse-temurin:17@sha256:6eca72bb4cd5fb8cd215f2579a4dfffd24b0f47effb6c868b7e92b7f0422fa9f
+#4 resolve docker.io/library/eclipse-temurin:17@sha256:6eca72bb4cd5fb8cd215f2579a4dfffd24b0f47effb6c868b7e92b7f0422fa9f 0.0s done
+#4 sha256:6eca72bb4cd5fb8cd215f2579a4dfffd24b0f47effb6c868b7e92b7f0422fa9f 8.48kB / 8.48kB done
+#4 sha256:bdc4fab96f2ebc23fb7014023e22d522f1e765253876cc60ec896156a10cf01c 1.94kB / 1.94kB done
+#4 sha256:0c0c3c246e9e71d1f6b4539fbc7efc83bc17dc6cbf5e0c75e8dfe31725aeebba 6.36kB / 6.36kB done
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 0B / 29.72MB 0.3s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 0B / 22.96MB 0.3s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 0B / 144.71MB 0.3s
+#4 ...
+
+#5 [internal] load build context
+#5 transferring context: 16.61MB 0.7s done
+#5 DONE 0.7s
+
+#4 [1/2] FROM docker.io/library/eclipse-temurin:17@sha256:6eca72bb4cd5fb8cd215f2579a4dfffd24b0f47effb6c868b7e92b7f0422fa9f
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 2.10MB / 29.72MB 1.0s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 2.10MB / 22.96MB 1.9s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 4.19MB / 29.72MB 2.3s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 4.19MB / 22.96MB 3.8s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 7.34MB / 144.71MB 4.7s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 14.68MB / 144.71MB 7.2s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 5.24MB / 29.72MB 7.3s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 5.24MB / 22.96MB 8.9s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 22.02MB / 144.71MB 9.5s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 6.29MB / 29.72MB 12.4s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 29.36MB / 144.71MB 12.4s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 7.34MB / 22.96MB 13.5s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 8.39MB / 29.72MB 15.7s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 9.44MB / 22.96MB 15.9s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 36.70MB / 144.71MB 15.9s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 10.49MB / 29.72MB 17.9s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 11.53MB / 22.96MB 18.1s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 12.58MB / 29.72MB 19.8s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 13.63MB / 22.96MB 20.3s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 42.99MB / 144.71MB 21.0s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 14.68MB / 29.72MB 21.8s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 15.73MB / 22.96MB 22.6s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 16.78MB / 29.72MB 23.8s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 17.83MB / 22.96MB 24.3s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 19.92MB / 22.96MB 25.6s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 18.87MB / 29.72MB 25.8s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 49.28MB / 144.71MB 26.1s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 22.02MB / 22.96MB 27.0s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 20.97MB / 29.72MB 27.8s
+#4 sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 22.96MB / 22.96MB 27.7s done
+#4 sha256:064c53302191c032453ab872775092dd32d7051751d039e8d32b3d95bf0407c3 0B / 159B 27.8s
+#4 sha256:064c53302191c032453ab872775092dd32d7051751d039e8d32b3d95bf0407c3 159B / 159B 28.0s done
+#4 sha256:17bc75678de73925de23138592ac9b0e4876ccc7ef8b38dc0b19955dde37909f 0B / 2.28kB 28.1s
+#4 sha256:17bc75678de73925de23138592ac9b0e4876ccc7ef8b38dc0b19955dde37909f 2.28kB / 2.28kB 28.4s done
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 23.07MB / 29.72MB 29.1s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 25.17MB / 29.72MB 30.2s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 55.57MB / 144.71MB 31.2s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 27.26MB / 29.72MB 31.3s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 29.36MB / 29.72MB 32.4s
+#4 sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 29.72MB / 29.72MB 32.5s done
+#4 extracting sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 62.91MB / 144.71MB 34.5s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 70.25MB / 144.71MB 36.3s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 77.59MB / 144.71MB 38.0s
+#4 extracting sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 5.3s
+#4 extracting sha256:b71466b94f266b4c2e0881749670e5b88ab7a0fd4ca4a4cdf26cb45e4bde7e4e 6.5s done
+#4 extracting sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 84.93MB / 144.71MB 42.0s
+#4 extracting sha256:cdc74333da4c494c38acb09c8b9a50cfd969bf81f5b317ee613f8aa6bce921fc 3.2s done
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 91.23MB / 144.71MB 47.0s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 98.57MB / 144.71MB 49.2s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 105.91MB / 144.71MB 51.8s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 113.25MB / 144.71MB 53.9s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 120.59MB / 144.71MB 56.5s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 127.93MB / 144.71MB 58.6s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 135.27MB / 144.71MB 60.5s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 142.61MB / 144.71MB 62.3s
+#4 sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 144.71MB / 144.71MB 62.8s done
+#4 extracting sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 0.1s
+#4 extracting sha256:71f0160053e602868c59033ccdd477c33155c1fa3247ad87fb79c8e836a937af 5.1s done
+#4 extracting sha256:064c53302191c032453ab872775092dd32d7051751d039e8d32b3d95bf0407c3
+#4 extracting sha256:064c53302191c032453ab872775092dd32d7051751d039e8d32b3d95bf0407c3 done
+#4 extracting sha256:17bc75678de73925de23138592ac9b0e4876ccc7ef8b38dc0b19955dde37909f done
+#4 DONE 68.1s
+
+#6 [2/2] COPY target  ./
+#6 DONE 0.4s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 0.2s done
+#7 writing image sha256:526bd9d1f0f40034ba8055901716e98e4463d3173246cd071233c59b708621b3 done
+#7 naming to docker.io/samuelcavalcanti/quickstart:1.1 done
+#7 DONE 0.2s
+WARNING: current commit information was not captured by the build: failed to read current commit information with git rev-parse --is-inside-work-tree
++ docker login -u samuelcavalcanti -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+
+WARNING! Your credentials are stored unencrypted in '/root/.docker/config.json'.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/go/credential-store/
+
+Login Succeeded
++ docker tag samuelcavalcanti/quickstart:1.1 samuelcavalcanti/quickstart:latest
++ docker push samuelcavalcanti/quickstart:1.1
+The push refers to repository [docker.io/samuelcavalcanti/quickstart]
+09897117f09f: Preparing
+b5a465ea3563: Preparing
+c23b29d9ba7f: Preparing
+1843a14753fb: Preparing
+60428c679655: Preparing
+cd9664b1462e: Preparing
+cd9664b1462e: Waiting
+1843a14753fb: Layer already exists
+60428c679655: Layer already exists
+c23b29d9ba7f: Layer already exists
+b5a465ea3563: Layer already exists
+cd9664b1462e: Layer already exists
+09897117f09f: Pushed
+1.1: digest: sha256:e82473351a8e2851a0c695420d2a5b7a4cffbf453f28ba7be258a175e0af76d2 size: 1581
++ docker push samuelcavalcanti/quickstart:latest
+The push refers to repository [docker.io/samuelcavalcanti/quickstart]
+09897117f09f: Preparing
+b5a465ea3563: Preparing
+c23b29d9ba7f: Preparing
+1843a14753fb: Preparing
+60428c679655: Preparing
+cd9664b1462e: Preparing
+cd9664b1462e: Waiting
+c23b29d9ba7f: Layer already exists
+1843a14753fb: Layer already exists
+b5a465ea3563: Layer already exists
+60428c679655: Layer already exists
+09897117f09f: Layer already exists
+cd9664b1462e: Layer already exists
+latest: digest: sha256:e82473351a8e2851a0c695420d2a5b7a4cffbf453f28ba7be258a175e0af76d2 size: 1581
+[8mha:////4ChgB2+WjPAyz1rqlZsRDgWx9ibT18eVzxfWB+31AUHCAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaegjSZGwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfX1uR6L4AAAA=[0m[Pipeline] }
+[8mha:////4BL0mu20r2dcbIKxa/vQVKo6pWSITED4ajjLs8eVRfzcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgFZHam9vgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4Khl5c1LJ8pQZu8V8EdkiJPQc4TTp7ala5eEeTVWxCWrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIQokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g0an/g7vgAAAA==[0m[Pipeline] }
+[8mha:////4Ma1lclK2wz8ioiLBpj/Ds9CCOm8R51RGEommtApCNTDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgEFHa1pvgAAAA==[0m[Pipeline] // script
+[8mha:////4HUQB5EQXAYWsroTD30+i7JXiT7JoQytdnVgr8g8wiiZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKSAipEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvP+930p++AAAA[0m[Pipeline] }
+[8mha:////4E45o++NVUp5bxIt7GJtCmQg1I3c2DrySBpBGV2KX7coAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAKYoTYr4AAAA=[0m[Pipeline] // container
+[8mha:////4DxcC8AOTvyXAAFZ+fJC6DiybSOIXJ1xOk+qslpGW7wPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigZCQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+22u3eEDEciAk74AAAA=[0m[Pipeline] }
+[8mha:////4ExoZ6n6a0es3kvenw0p/6CCsDc89kCvGZ9S+EnXqadvAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSRIgCUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw8lBmPIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4BCA+9rdFM4jyedCaYqS7iEHHd3AvCT72tPewXMt5q3AAAAAqB+LCAAAAAAAAP9tjUEKwjAURH8rXbh16SFSBAVBunIbuvEEsYkxafi/JqnpyhN5Ne9gtODKWQwzA8N7vqAKHhrymlmFvcHQGTa4UefEEvn+4igxS2fWEQZyirUqtSTVca4tRQWzihIWHJYKO0fBoI6w4lbcRe0E6voUfd4OHEojb/CAgmdyFD5+y+RhfR1lIPxx/gJgGiKUm3223fbzrN7k9fHCwgAAAA==[0m[Pipeline] stage
+[8mha:////4K4wIRqo6BGOhL6Zi7sM8n2y90vjkst6n00ZEyxkvPq6AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] { (Delete Pod)
+[8mha:////4CZ/qjSMBLXNZxCn33CbbzKzu+pG07p/iSZRbO+MymY7AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KgtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPlyKrR8IAAAA=[0m[Pipeline] container
+[8mha:////4PZYaOuEjTjx0hLHZDkC42AwloCNlHSSePWxCoYypcYZAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AgbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxATOXFRXCAAAA[0m[Pipeline] {
+[8mha:////4EWK1OTMzhnXm1aTjh2lEAvJvoe0RPhlTS3q3jWRcJl+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNzN5Fy++AAAA[0m[Pipeline] sh
++ kubectl set image -n quickstart deployments/quickstart-des quickstart=samuelcavalcanti/quickstart:1.1
+[8mha:////4FLuB/LKw2JCnTWwkNCbQo664JKDFDT7yR3kMYn41qgKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8WCoj++AAAA[0m[Pipeline] }
+[8mha:////4KdLRzWxy7Bs3eXAL/78/1H5cq2lfiD6w8MGFRLvyz46AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCQxpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGW9z3WoPwb5Ql6+AAAA[0m[Pipeline] // container
+[8mha:////4P0OVVVOM4NyaQPY+Bk7icavE+mEY64hoyQExPt3TnmEAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRRWgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QEZexcMvgAAAA==[0m[Pipeline] }
+[8mha:////4PnNyuWER9hu+3sm69+ihizTlzhHIMCTmHF1mt4YBImSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIaBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAetrn2uw8hOYT9vgAAAA==[0m[Pipeline] // stage
+[8mha:////4NgyWd5jTIZSWMai4C9f5wf6Tr6mrV2dCCV73VLkI6KPAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihISQUCpayw0vMIkxTqy7YDs4FS/ia/wBi0hUbLHa2WZeb1gGDzV7g52m3lJoLA5uNHlhYt9fHSfs+IINU2CnUeokudWnGSVHDXOKEhYCVpoax8GSibAWnXqoyiky1Tn6/B0FlLa9wxMKkc1R+fiFycPmNraB6ef5K4BpGCKU+12u7eEDq2MCW74AAAA=[0m[Pipeline] }
+[8mha:////4DvB48nEHSENaM8oFujQu15bY8sALTA1v6HG3d21JKcNAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv8u1PXwAgk641r4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4NRAkfg2Tv/g3kvwrkMXT9KYefD8F24wH8GdA6oo9BkQAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCtIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrQ659/QGxreNqvgAAAA==[0m[Pipeline] }
+[8mha:////4NRp+lMm3hLhQUXeACDP9tI/f0AIIh6BbhHWJuOXQl5gAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCtIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrOtf+8AGljn51vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4E+p7ewFXB5IuS+ZfnM1gyfUDLmclIzRzcBVblb51KaZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMLpQAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb3eCbP8BkLvRA70AAAA=[0m[Pipeline] }
+[8mha:////4FjmNadLuEPx/ZpxPG6g55igwPRXpAjYLgPmugXnILIAAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6JshsQ4uTYsfkGFWgvNe9g+hMkv8tf8B4kkTt7pnrOc1xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwA1xyG9r0AAAA=[0m[Pipeline] // node
+[8mha:////4N4Rj4IQzyuwM77s76sYdn0NJOJAWM5+rcRbeq5FvC9rAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMLpQAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Qb/eCbPcB9ihZW70AAAA=[0m[Pipeline] }
+[8mha:////4Mc5n0k5tf7wS3eTkt1ho+yzRCbEoIJIc9Of70+lI4XKAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiJYaeFY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI91tBtvsAtKkS6r0AAAA=[0m[Pipeline] // retry
+[8mha:////4AqZDPavLdmKSEPg1tjVBsa+Ez6Gc9GhK9W4cBYVqheSAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PutINt9AL7Re069AAAA[0m[Pipeline] }
+[8mha:////4AW/RQ+LQnC+52SYCBbBflqc8F8F0K2k6em6e05cLEK8AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREBIFoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN9vBdnuA/ib3H69AAAA[0m[Pipeline] // podTemplate
+[8mha:////4OtXo2MXCgeBEaBKOYl7BJOf6gNsQMmKdzpZg57ARo0EAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AH0X36q9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
