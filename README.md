@@ -1,79 +1,165 @@
-# Getting started with Quarkus
+# Hackthon Devops
 
-This is a minimal CRUD service exposing a couple of endpoints over REST.
+<!--toc:start-->
+- [Hackthon Devops](#hackthon-devops)
+  - [Passo a passo da implantação do cluster](#passo-a-passo-da-implantação-do-cluster)
+    - [1 Minikube](#1-minikube)
+    - [2 Jenkins](#2-jenkins)
+      - [Copiar dados de configuração do Jenkins para VM](#copiar-dados-de-configuração-do-jenkins-para-vm)
+      - [Criar Deployment, service e ingress](#criar-deployment-service-e-ingress)
+  - [Configure o DNS](#configure-o-dns)
+  - [Instalação e Configuração da aplicação web](#instalação-e-configuração-da-aplicação-web)
+    - [Passo 1 um _namespace_ para o quickstart:](#passo-1-um-namespace-para-o-quickstart)
+    - [Passo 2 criar deployments para quickstart:](#passo-2-criar-deployments-para-quickstart)
+    - [Passo 3 criar services para quickstart:](#passo-3-criar-services-para-quickstart)
+    - [Passo 4 criar o ingress para quickstart:](#passo-4-criar-o-ingress-para-quickstart)
+    - [pipelines](#pipelines)
+  - [Estratégia de versionamento.](#estratégia-de-versionamento)
+  - [Os códigos de automação desenvolvidos, scripts e Docker file.](#os-códigos-de-automação-desenvolvidos-scripts-e-docker-file)
+<!--toc:end-->
 
-Under the hood, this demo uses:
+![](./imgs/jenkins_pipeline.png)
 
-- RESTEasy to expose the REST endpoints
-- REST-assured and JUnit 5 for endpoint testing
+## Passo a passo da implantação do cluster
 
-## Requirements
+O passo a passo a seguir foi feito utilizando: **linux** com **VirtualBox** e **kubectl** instalado
 
-To compile and run this demo you will need:
+### 1 Minikube
 
-- JDK 17+
-- GraalVM
+O minikube é a ferramenta **official** do kubernetes para provisionamento local de cluster.
+Para instalar acesse o link: https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download.
+Uma vez instalado podemos provisionar um cluster com o comando:
 
-### Configuring GraalVM and JDK 17+
+```bash
+minikube start
+```
 
-Make sure that both the `GRAALVM_HOME` and `JAVA_HOME` environment variables have
-been set, and that a JDK 17+ `java` command is on the path.
+### 2 Jenkins
 
-See the [Building a Native Executable guide](https://quarkus.io/guides/building-native-image-guide)
-for help setting up your environment.
+O escolhido instalar o Jenkins no próprio cluster para execute todos os comandos abaixo:
 
-## Building the application
+```bash
+kubectl create namespace devops-tools
+```
 
-Launch the Maven build on the checked out sources of this demo:
+**OBS: para os comando abaixo funcionarem esteja no diretório desse repositório**
 
-> ./mvnw package
+```bash
+kubectl create -f  ./kube_yamls/jenkins/jenkins-01-serviceAccount.yaml
+kubectl create -f ./kube_yamls/jenkins/jenkins-02-volume.yaml
+```
 
-### Live coding with Quarkus
+#### Copiar dados de configuração do Jenkins para VM
 
-The Maven Quarkus plugin provides a development mode that supports
-live coding. To try this out:
+Uma vez instalado o volume será necessário uma intervenção manual para copiar os dados de [/data/jenkins](./data/jenkins) para `\data\jenkins` na VM criada pelo minikube.
+Crie um ponto de montagem e passe os arquivos para dentro da VM:
 
-> ./mvnw quarkus:dev
+```bash
+mkdir minikube
+minikube mount minikube:/data/share
+cp -r data/jenkins minikube
+```
 
-This command will leave Quarkus running in the foreground listening on port 8080.
+Acesse via ssh a VM e mude o local dos arquivo :
 
-1. Visit the default endpoint: [http://127.0.0.1:8080](http://127.0.0.1:8080).
-    - Make a simple change to [src/main/resources/META-INF/resources/index.html](src/main/resources/META-INF/resources/index.html) file.
-    - Refresh the browser to see the updated page.
-2. Visit the `/hello` endpoint: [http://127.0.0.1:8080/hello](http://127.0.0.1:8080/hello)
-    - Update the response in [src/main/java/org/acme/quickstart/GreetingResource.java](src/main/java/org/acme/quickstart/GreetingResource.java). Replace `hello` with `hello there` in the `hello()` method.
-    - Refresh the browser. You should now see `hello there`.
-    - Undo the change, so the method returns `hello` again.
-    - Refresh the browser. You should now see `hello`.
+```bash
+minikube ssh
+cd /data/
+sudo rm -r jenkins
+sudo mv share/jenkins/ ./
+```
 
-### Run Quarkus in JVM mode
+#### Criar Deployment, service e ingress
 
-When you're done iterating in developer mode, you can run the application as a
-conventional jar file.
+```bash
+kubectl create -f ./kube_yamls/jenkins/jenkins-03-deployment.yaml
+kubectl create -f ./kube_yamls/jenkins/jenkins-04-service.yaml
+kubectl create -f ./kube_yamls/jenkins/ingress.yaml
+kubectl create -f ./kube_yamls/jenkins/deployment-role.yaml
+```
 
-First compile it:
+Para dar permissão ao jen
 
-> ./mvnw package
+## Configure o DNS
 
-Then run it:
+Nesse projeto se faz necessário adicionar ao sistema operacional o cluster `minikube` para resolver o domínio `.minikube`.
+Para isso siga a documentação official do minikube: https://minikube.sigs.k8s.io/docs/handbook/addons/ingress-dns/#Linux.
+No meu caso, uso Linux com NetworkManager. Os meus arquivos de configuração ficaram:
 
-> java -jar ./target/quarkus-app/quarkus-run.jar
+```bash
+# instalando os addons
+minikube addons enable ingress
+minikube addons enable ingress-dns
+```
 
-Have a look at how fast it boots, or measure the total native memory consumption.
+```bash
+#/etc/NetworkManager/NetworkManager.conf
+# Configuration file for NetworkManager.
+# See "man 5 NetworkManager.conf" for details.
+[main]
+dns=dnsmasq
+```
 
-### Run Quarkus as a native executable
+```bash
+#/etc/NetworkManager/dnsmasq.d/minikube.conf
+# Configuration file for NetworkManager.
+# See "man 5 NetworkManager.conf" for details.
+server=/minikube/192.168.59.100
+```
 
-You can also create a native executable from this application without making any
-source code changes. A native executable removes the dependency on the JVM:
-everything needed to run the application on the target platform is included in
-the executable, allowing the application to run with minimal resource overhead.
+Uma vez configurado e os pods devidamente inicializados você deve ser capaz de acessar o Jenkins pela url: https://jenkins.minikube/
 
-Compiling a native executable takes a bit longer, as GraalVM performs additional
-steps to remove unnecessary codepaths. Use the  `native` profile to compile a
-native executable:
+## Instalação e Configuração da aplicação web
 
-> ./mvnw package -Dnative
+### Passo 1 um _namespace_ para o quickstart:
 
-After getting a cup of coffee, you'll be able to run this executable directly:
+Para criar um _namespace_ para o quickstart, basta executar o comando
 
-> ./target/getting-started-1.0.0-SNAPSHOT-runner
+```bash
+kubectl create namespace quickstart
+```
+
+### Passo 2 criar deployments para quickstart:
+
+```bash
+kubectl create -f ./kube_yamls/quickstart/quickstart-des-deployment.yaml
+kubectl create -f ./kube_yamls/quickstart/quickstart-prd-deployment.yaml
+```
+
+### Passo 3 criar services para quickstart:
+
+```bash
+kubectl create -f ./kube_yamls/quickstart/quickstart-des-service.yaml
+kubectl create -f ./kube_yamls/quickstart/quickstart-prd-service.yaml
+```
+
+### Passo 4 criar o ingress para quickstart:
+
+```bash
+kubectl create -f ./kube_yamls/quickstart/ingress.yaml
+```
+
+Uma vez que pods estejam devidamente inicializados a aplicação pode ser vista nos endereços:
+
+- PRD: https://quickstart.minikube/hello
+- DES: https://quickstart.dev.minikube/hello
+
+### pipelines
+
+A pipeline para testes e validações possui o nome no Jenkins de DES e pode ser vista no [Jenkinsfile_DES](./Jenkinsfile_DES) ela é o grosso desse projeto,
+uma vez que promover um código para produção é mudar a versão do container do `deployments/quickstart-prd` para a versão desejada.
+
+- Pipeline DES: [Jenkinsfile_DES](./Jenkinsfile_DES)
+- Pipeline PRD: [Jenkinsfile_PRD](./Jenkinsfile_PRD)
+
+## Estratégia de versionamento.
+
+O versionamento da aplicação é controlando pela variável de ambiente `TAG` que por sua vez está sendo versionando
+pelo git em um repositório no Github. O valor contido no repositório é a fonte da verdade de modo que para rodar
+uma pipeline com a nova versão, devesse atualizar o repositório git e então executar a pipeline.
+A variável `TAG` controla a versão do container docker da aplicação. Na pipeline [Jenkinsfile_DES](./Jenkinsfile_DES)
+`TAG`é utilizada para a compilação do novo container que por sua vez é disponibilizado no meu [repositório quickstart do Docker Hub](https://hub.docker.com/repository/docker/samuelcavalcanti/quickstart/general).
+
+## Os códigos de automação desenvolvidos, scripts e Docker file.
+
+Todos os códigos desenvolvidos foram salvos nesse repositório no Github: https://github.com/samuel-cavalcanti/quarkus-quickstart na pasta [kube_yamls](./kube_yamls)
